@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/maholder/git_repos/hackathon-open-gl/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/hackathon-open-gl.dir/src/Application.cpp.o -c /home/maholder/git_repos/hackathon-open-gl/src/Application.cpp",
+  "file": "/home/maholder/git_repos/hackathon-open-gl/src/Application.cpp"
+}
+]

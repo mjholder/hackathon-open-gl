@@ -1,0 +1,3 @@
+/home/maholder/git_repos/hackathon-open-gl/build/CMakeFiles/hackathon-open-gl.dir
+/home/maholder/git_repos/hackathon-open-gl/build/CMakeFiles/edit_cache.dir
+/home/maholder/git_repos/hackathon-open-gl/build/CMakeFiles/rebuild_cache.dir
