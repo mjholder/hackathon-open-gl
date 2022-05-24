@@ -25,13 +25,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 12,
+				"line" : 13,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 14,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 17,
 				"parent" : 0
 			}
 		]
@@ -68,6 +74,11 @@
 			{
 				"backtrace" : 2,
 				"fragment" : "/usr/local/lib64/libglfw3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/lib64/libGLEW.so",
 				"role" : "libraries"
 			},
 			{

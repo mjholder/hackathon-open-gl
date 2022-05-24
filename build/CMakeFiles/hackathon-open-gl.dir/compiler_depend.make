@@ -3,7 +3,7 @@
 
 CMakeFiles/hackathon-open-gl.dir/src/Application.cpp.o: ../src/Application.cpp \
   /usr/include/stdc-predef.h \
-  /usr/local/include/GLFW/glfw3.h \
+  /usr/include/GL/glew.h \
   /usr/lib/gcc/x86_64-redhat-linux/11/include/stddef.h \
   /usr/lib/gcc/x86_64-redhat-linux/11/include/stdint.h \
   /usr/include/stdint.h \
@@ -22,12 +22,14 @@ CMakeFiles/hackathon-open-gl.dir/src/Application.cpp.o: ../src/Application.cpp \
   /usr/include/bits/wchar.h \
   /usr/include/bits/stdint-intn.h \
   /usr/include/bits/stdint-uintn.h \
+  /usr/include/GL/glu.h \
   /usr/include/GL/gl.h \
-  /usr/include/GL/glext.h \
-  /usr/include/KHR/khrplatform.h
+  /usr/local/include/GLFW/glfw3.h
 
 
 /usr/include/GL/gl.h:
+
+/usr/include/GL/glu.h:
 
 /usr/include/bits/stdint-uintn.h:
 
@@ -37,8 +39,6 @@ CMakeFiles/hackathon-open-gl.dir/src/Application.cpp.o: ../src/Application.cpp \
 
 /usr/include/bits/time64.h:
 
-/usr/include/KHR/khrplatform.h:
-
 /usr/include/bits/types.h:
 
 /usr/include/gnu/stubs.h:
@@ -47,23 +47,23 @@ CMakeFiles/hackathon-open-gl.dir/src/Application.cpp.o: ../src/Application.cpp \
 
 /usr/include/stdc-predef.h:
 
+/usr/include/GL/glew.h:
+
+/usr/include/bits/libc-header-start.h:
+
 /usr/lib/gcc/x86_64-redhat-linux/11/include/stddef.h:
-
-/usr/include/stdint.h:
-
-/usr/include/features-time64.h:
-
-/usr/lib/gcc/x86_64-redhat-linux/11/include/stdint.h:
 
 /usr/include/bits/typesizes.h:
 
 /usr/include/bits/wordsize.h:
 
-/usr/include/GL/glext.h:
-
-/usr/include/bits/libc-header-start.h:
-
 /usr/include/features.h:
+
+/usr/include/stdint.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/11/include/stdint.h:
+
+/usr/include/features-time64.h:
 
 /usr/include/gnu/stubs-64.h:
 

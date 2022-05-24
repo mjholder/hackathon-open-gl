@@ -4,7 +4,7 @@
 CMakeFiles/hackathon-open-gl.dir/src/Application.cpp.o
  /home/maholder/git_repos/hackathon-open-gl/src/Application.cpp
  /usr/include/stdc-predef.h
- /usr/local/include/GLFW/glfw3.h
+ /usr/include/GL/glew.h
  /usr/lib/gcc/x86_64-redhat-linux/11/include/stddef.h
  /usr/lib/gcc/x86_64-redhat-linux/11/include/stdint.h
  /usr/include/stdint.h
@@ -23,7 +23,7 @@ CMakeFiles/hackathon-open-gl.dir/src/Application.cpp.o
  /usr/include/bits/wchar.h
  /usr/include/bits/stdint-intn.h
  /usr/include/bits/stdint-uintn.h
+ /usr/include/GL/glu.h
  /usr/include/GL/gl.h
- /usr/include/GL/glext.h
- /usr/include/KHR/khrplatform.h
+ /usr/local/include/GLFW/glfw3.h
 

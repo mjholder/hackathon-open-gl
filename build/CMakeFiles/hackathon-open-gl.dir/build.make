@@ -93,6 +93,7 @@ hackathon__open__gl_EXTERNAL_OBJECTS =
 hackathon-open-gl: CMakeFiles/hackathon-open-gl.dir/src/Application.cpp.o
 hackathon-open-gl: CMakeFiles/hackathon-open-gl.dir/build.make
 hackathon-open-gl: /usr/local/lib64/libglfw3.a
+hackathon-open-gl: /usr/lib64/libGLEW.so
 hackathon-open-gl: /usr/lib64/librt.a
 hackathon-open-gl: /usr/lib64/libm.so
 hackathon-open-gl: /usr/lib64/libX11.so

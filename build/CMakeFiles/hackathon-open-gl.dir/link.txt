@@ -1,1 +1,1 @@
-/usr/bin/g++ -g CMakeFiles/hackathon-open-gl.dir/src/Application.cpp.o -o hackathon-open-gl  /usr/local/lib64/libglfw3.a /usr/lib64/librt.a -lm -ldl /usr/lib64/libX11.so /usr/lib64/libGLX.so /usr/lib64/libOpenGL.so 
+/usr/bin/g++ -g CMakeFiles/hackathon-open-gl.dir/src/Application.cpp.o -o hackathon-open-gl  /usr/local/lib64/libglfw3.a /usr/lib64/libGLEW.so /usr/lib64/librt.a -lm -ldl /usr/lib64/libX11.so /usr/lib64/libGLX.so /usr/lib64/libOpenGL.so 
