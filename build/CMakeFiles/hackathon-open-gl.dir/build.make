@@ -92,6 +92,12 @@ hackathon__open__gl_EXTERNAL_OBJECTS =
 
 hackathon-open-gl: CMakeFiles/hackathon-open-gl.dir/src/Application.cpp.o
 hackathon-open-gl: CMakeFiles/hackathon-open-gl.dir/build.make
+hackathon-open-gl: /usr/local/lib64/libglfw3.a
+hackathon-open-gl: /usr/lib64/librt.a
+hackathon-open-gl: /usr/lib64/libm.so
+hackathon-open-gl: /usr/lib64/libX11.so
+hackathon-open-gl: /usr/lib64/libGLX.so
+hackathon-open-gl: /usr/lib64/libOpenGL.so
 hackathon-open-gl: CMakeFiles/hackathon-open-gl.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/maholder/git_repos/hackathon-open-gl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable hackathon-open-gl"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hackathon-open-gl.dir/link.txt --verbose=$(VERBOSE)

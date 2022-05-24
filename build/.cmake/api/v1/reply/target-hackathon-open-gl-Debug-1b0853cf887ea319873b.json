@@ -10,7 +10,8 @@
 	{
 		"commands" : 
 		[
-			"add_executable"
+			"add_executable",
+			"target_link_libraries"
 		],
 		"files" : 
 		[
@@ -24,7 +25,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 10,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 14,
 				"parent" : 0
 			}
 		]
@@ -57,6 +64,35 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib64/libglfw3.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib64/librt.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib64/libX11.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib64/libGLX.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib64/libOpenGL.so",
+				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
