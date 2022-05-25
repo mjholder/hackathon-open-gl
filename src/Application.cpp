@@ -121,11 +121,16 @@ int main(void)
 
     std::cout << glGetString(GL_VERSION) << std::endl;
 
-    // 3 vertex positions (x, y)
-    float positions[6] = {
+    // 6 vertex positions (x, y)
+    // Note repeate of some vertices, these are extra and wasteful
+    float positions[12] = {
         -0.5f, -0.5f,
-        0.0f,  0.5f,
-        0.5f, -0.5f,
+         0.5f, -0.5f,
+         0.5f,  0.5f,
+
+         0.5f,  0.5f,
+        -0.5f,  0.5f,
+        -0.5f, -0.5f,
     };
 
     /* define vertext buffer */
@@ -135,7 +140,7 @@ int main(void)
     // This sets the state that OpenGL is in, the later Draw Call uses the state
     // that this is setting up
     glBindBuffer(GL_ARRAY_BUFFER, buffer);
-    glBufferData(GL_ARRAY_BUFFER, 6 * sizeof(float), positions, GL_STATIC_DRAW);
+    glBufferData(GL_ARRAY_BUFFER, 6 * 2 * sizeof(float), positions, GL_STATIC_DRAW);
 
     glEnableVertexAttribArray(0);
     // Tell OpenGL how to read the vertices we provide
@@ -154,7 +159,7 @@ int main(void)
         /* Draw call that will draw our triangle */
         // 0 is the index we start at in our data
         // 3 is size, which in vertices would be 3 sets of 2
-        glDrawArrays(GL_TRIANGLES, 0, 3);
+        glDrawArrays(GL_TRIANGLES, 0, 6);
 
         /* Swap front and back buffers */
         glfwSwapBuffers(window);
