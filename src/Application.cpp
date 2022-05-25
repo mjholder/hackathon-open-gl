@@ -5,6 +5,21 @@
 #include <string>
 #include <sstream>
 
+static void GLClearError()
+{
+    // keep polling backlog of errors until we read them all
+    while (glGetError() != GL_NO_ERROR);
+}
+
+static void GLCheckError()
+{
+    // loop through errors, printing them
+    while (GLenum error = glGetError())
+    {
+        std::cout << "[OpenGL Error] (" << error << ")" << std::endl;
+    }
+}
+
 struct ShaderProgramSource
 {
     std::string VertexSource;
@@ -168,7 +183,9 @@ int main(void)
         glClear(GL_COLOR_BUFFER_BIT);
 
         /* Draw call that will draw our triangle */
-        glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, nullptr);
+        GLClearError();
+        glDrawElements(GL_TRIANGLES, 6, GL_INT, nullptr);
+        GLCheckError();
 
         /* Swap front and back buffers */
         glfwSwapBuffers(window);
