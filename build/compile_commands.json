@@ -3,5 +3,30 @@
   "directory": "/home/maholder/git_repos/hackathon-open-gl/build",
   "command": "/usr/bin/g++   -g -o CMakeFiles/hackathon-open-gl.dir/src/Application.cpp.o -c /home/maholder/git_repos/hackathon-open-gl/src/Application.cpp",
   "file": "/home/maholder/git_repos/hackathon-open-gl/src/Application.cpp"
+},
+{
+  "directory": "/home/maholder/git_repos/hackathon-open-gl/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/hackathon-open-gl.dir/src/IndexBuffer.cpp.o -c /home/maholder/git_repos/hackathon-open-gl/src/IndexBuffer.cpp",
+  "file": "/home/maholder/git_repos/hackathon-open-gl/src/IndexBuffer.cpp"
+},
+{
+  "directory": "/home/maholder/git_repos/hackathon-open-gl/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/hackathon-open-gl.dir/src/Renderer.cpp.o -c /home/maholder/git_repos/hackathon-open-gl/src/Renderer.cpp",
+  "file": "/home/maholder/git_repos/hackathon-open-gl/src/Renderer.cpp"
+},
+{
+  "directory": "/home/maholder/git_repos/hackathon-open-gl/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/hackathon-open-gl.dir/src/Shader.cpp.o -c /home/maholder/git_repos/hackathon-open-gl/src/Shader.cpp",
+  "file": "/home/maholder/git_repos/hackathon-open-gl/src/Shader.cpp"
+},
+{
+  "directory": "/home/maholder/git_repos/hackathon-open-gl/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/hackathon-open-gl.dir/src/VertexArray.cpp.o -c /home/maholder/git_repos/hackathon-open-gl/src/VertexArray.cpp",
+  "file": "/home/maholder/git_repos/hackathon-open-gl/src/VertexArray.cpp"
+},
+{
+  "directory": "/home/maholder/git_repos/hackathon-open-gl/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/hackathon-open-gl.dir/src/VertexBuffer.cpp.o -c /home/maholder/git_repos/hackathon-open-gl/src/VertexBuffer.cpp",
+  "file": "/home/maholder/git_repos/hackathon-open-gl/src/VertexBuffer.cpp"
 }
 ]

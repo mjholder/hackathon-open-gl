@@ -153,6 +153,126 @@ src/Application.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hackathon-open-gl.dir/build.make CMakeFiles/hackathon-open-gl.dir/src/Application.cpp.s
 .PHONY : src/Application.cpp.s
 
+src/IndexBuffer.o: src/IndexBuffer.cpp.o
+.PHONY : src/IndexBuffer.o
+
+# target to build an object file
+src/IndexBuffer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hackathon-open-gl.dir/build.make CMakeFiles/hackathon-open-gl.dir/src/IndexBuffer.cpp.o
+.PHONY : src/IndexBuffer.cpp.o
+
+src/IndexBuffer.i: src/IndexBuffer.cpp.i
+.PHONY : src/IndexBuffer.i
+
+# target to preprocess a source file
+src/IndexBuffer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hackathon-open-gl.dir/build.make CMakeFiles/hackathon-open-gl.dir/src/IndexBuffer.cpp.i
+.PHONY : src/IndexBuffer.cpp.i
+
+src/IndexBuffer.s: src/IndexBuffer.cpp.s
+.PHONY : src/IndexBuffer.s
+
+# target to generate assembly for a file
+src/IndexBuffer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hackathon-open-gl.dir/build.make CMakeFiles/hackathon-open-gl.dir/src/IndexBuffer.cpp.s
+.PHONY : src/IndexBuffer.cpp.s
+
+src/Renderer.o: src/Renderer.cpp.o
+.PHONY : src/Renderer.o
+
+# target to build an object file
+src/Renderer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hackathon-open-gl.dir/build.make CMakeFiles/hackathon-open-gl.dir/src/Renderer.cpp.o
+.PHONY : src/Renderer.cpp.o
+
+src/Renderer.i: src/Renderer.cpp.i
+.PHONY : src/Renderer.i
+
+# target to preprocess a source file
+src/Renderer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hackathon-open-gl.dir/build.make CMakeFiles/hackathon-open-gl.dir/src/Renderer.cpp.i
+.PHONY : src/Renderer.cpp.i
+
+src/Renderer.s: src/Renderer.cpp.s
+.PHONY : src/Renderer.s
+
+# target to generate assembly for a file
+src/Renderer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hackathon-open-gl.dir/build.make CMakeFiles/hackathon-open-gl.dir/src/Renderer.cpp.s
+.PHONY : src/Renderer.cpp.s
+
+src/Shader.o: src/Shader.cpp.o
+.PHONY : src/Shader.o
+
+# target to build an object file
+src/Shader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hackathon-open-gl.dir/build.make CMakeFiles/hackathon-open-gl.dir/src/Shader.cpp.o
+.PHONY : src/Shader.cpp.o
+
+src/Shader.i: src/Shader.cpp.i
+.PHONY : src/Shader.i
+
+# target to preprocess a source file
+src/Shader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hackathon-open-gl.dir/build.make CMakeFiles/hackathon-open-gl.dir/src/Shader.cpp.i
+.PHONY : src/Shader.cpp.i
+
+src/Shader.s: src/Shader.cpp.s
+.PHONY : src/Shader.s
+
+# target to generate assembly for a file
+src/Shader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hackathon-open-gl.dir/build.make CMakeFiles/hackathon-open-gl.dir/src/Shader.cpp.s
+.PHONY : src/Shader.cpp.s
+
+src/VertexArray.o: src/VertexArray.cpp.o
+.PHONY : src/VertexArray.o
+
+# target to build an object file
+src/VertexArray.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hackathon-open-gl.dir/build.make CMakeFiles/hackathon-open-gl.dir/src/VertexArray.cpp.o
+.PHONY : src/VertexArray.cpp.o
+
+src/VertexArray.i: src/VertexArray.cpp.i
+.PHONY : src/VertexArray.i
+
+# target to preprocess a source file
+src/VertexArray.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hackathon-open-gl.dir/build.make CMakeFiles/hackathon-open-gl.dir/src/VertexArray.cpp.i
+.PHONY : src/VertexArray.cpp.i
+
+src/VertexArray.s: src/VertexArray.cpp.s
+.PHONY : src/VertexArray.s
+
+# target to generate assembly for a file
+src/VertexArray.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hackathon-open-gl.dir/build.make CMakeFiles/hackathon-open-gl.dir/src/VertexArray.cpp.s
+.PHONY : src/VertexArray.cpp.s
+
+src/VertexBuffer.o: src/VertexBuffer.cpp.o
+.PHONY : src/VertexBuffer.o
+
+# target to build an object file
+src/VertexBuffer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hackathon-open-gl.dir/build.make CMakeFiles/hackathon-open-gl.dir/src/VertexBuffer.cpp.o
+.PHONY : src/VertexBuffer.cpp.o
+
+src/VertexBuffer.i: src/VertexBuffer.cpp.i
+.PHONY : src/VertexBuffer.i
+
+# target to preprocess a source file
+src/VertexBuffer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hackathon-open-gl.dir/build.make CMakeFiles/hackathon-open-gl.dir/src/VertexBuffer.cpp.i
+.PHONY : src/VertexBuffer.cpp.i
+
+src/VertexBuffer.s: src/VertexBuffer.cpp.s
+.PHONY : src/VertexBuffer.s
+
+# target to generate assembly for a file
+src/VertexBuffer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hackathon-open-gl.dir/build.make CMakeFiles/hackathon-open-gl.dir/src/VertexBuffer.cpp.s
+.PHONY : src/VertexBuffer.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +285,21 @@ help:
 	@echo "... src/Application.o"
 	@echo "... src/Application.i"
 	@echo "... src/Application.s"
+	@echo "... src/IndexBuffer.o"
+	@echo "... src/IndexBuffer.i"
+	@echo "... src/IndexBuffer.s"
+	@echo "... src/Renderer.o"
+	@echo "... src/Renderer.i"
+	@echo "... src/Renderer.s"
+	@echo "... src/Shader.o"
+	@echo "... src/Shader.i"
+	@echo "... src/Shader.s"
+	@echo "... src/VertexArray.o"
+	@echo "... src/VertexArray.i"
+	@echo "... src/VertexArray.s"
+	@echo "... src/VertexBuffer.o"
+	@echo "... src/VertexBuffer.i"
+	@echo "... src/VertexBuffer.s"
 .PHONY : help
 
 
