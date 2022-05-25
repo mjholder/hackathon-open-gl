@@ -124,13 +124,15 @@ int main(void)
     // 6 vertex positions (x, y)
     // Note repeate of some vertices, these are extra and wasteful
     float positions[12] = {
-        -0.5f, -0.5f,
-         0.5f, -0.5f,
-         0.5f,  0.5f,
+        -0.5f, -0.5f, // 0
+         0.5f, -0.5f, // 1
+         0.5f,  0.5f, // 2
+        -0.5f,  0.5f, // 3
+    };
 
-         0.5f,  0.5f,
-        -0.5f,  0.5f,
-        -0.5f, -0.5f,
+    unsigned int indices[] = {
+        0, 1, 2,
+        2, 3, 0,
     };
 
     /* define vertext buffer */
@@ -146,6 +148,15 @@ int main(void)
     // Tell OpenGL how to read the vertices we provide
     glVertexAttribPointer(0, 2, GL_FLOAT, GL_FALSE, sizeof(float) * 2, 0);
 
+    /* define index buffer */
+    /* `ibo` holds the id of this buffer */
+    unsigned int ibo;
+    glGenBuffers(1, &ibo);
+    // This sets the state that OpenGL is in, the later Draw Call uses the state
+    // that this is setting up
+    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, ibo);
+    glBufferData(GL_ELEMENT_ARRAY_BUFFER, 6 * 2 * sizeof(unsigned int), indices, GL_STATIC_DRAW);
+
     ShaderProgramSource source = ParseShader("/home/maholder/git_repos/hackathon-open-gl/res/shaders/Basic.shader");
     unsigned int shader = CreateShader(source.VertexSource, source.FragmentSource);
     glUseProgram(shader);
@@ -157,9 +168,7 @@ int main(void)
         glClear(GL_COLOR_BUFFER_BIT);
 
         /* Draw call that will draw our triangle */
-        // 0 is the index we start at in our data
-        // 3 is size, which in vertices would be 3 sets of 2
-        glDrawArrays(GL_TRIANGLES, 0, 6);
+        glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, nullptr);
 
         /* Swap front and back buffers */
         glfwSwapBuffers(window);
