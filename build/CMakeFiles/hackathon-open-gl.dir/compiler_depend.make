@@ -183,8 +183,21 @@ CMakeFiles/hackathon-open-gl.dir/src/Application.cpp.o: ../src/Application.cpp \
   /usr/include/c++/11/bits/basic_ios.tcc \
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/istream \
-  /usr/include/c++/11/bits/istream.tcc
+  /usr/include/c++/11/bits/istream.tcc \
+  /usr/include/c++/11/fstream \
+  /usr/include/c++/11/bits/codecvt.h \
+  /usr/include/c++/11/x86_64-redhat-linux/bits/basic_file.h \
+  /usr/include/c++/11/x86_64-redhat-linux/bits/c++io.h \
+  /usr/include/c++/11/bits/fstream.tcc \
+  /usr/include/c++/11/sstream \
+  /usr/include/c++/11/bits/sstream.tcc
 
+
+/usr/include/c++/11/bits/sstream.tcc:
+
+/usr/include/c++/11/x86_64-redhat-linux/bits/c++io.h:
+
+/usr/include/c++/11/bits/codecvt.h:
 
 /usr/include/c++/11/bits/istream.tcc:
 
@@ -211,6 +224,8 @@ CMakeFiles/hackathon-open-gl.dir/src/Application.cpp.o: ../src/Application.cpp \
 /usr/include/bits/types/error_t.h:
 
 /usr/include/asm-generic/errno.h:
+
+/usr/include/c++/11/bits/fstream.tcc:
 
 /usr/include/asm/errno.h:
 
@@ -345,6 +360,8 @@ CMakeFiles/hackathon-open-gl.dir/src/Application.cpp.o: ../src/Application.cpp \
 /usr/include/c++/11/cstdlib:
 
 /usr/include/c++/11/bits/stl_iterator_base_types.h:
+
+/usr/include/c++/11/sstream:
 
 /usr/include/bits/typesizes.h:
 
@@ -498,6 +515,8 @@ CMakeFiles/hackathon-open-gl.dir/src/Application.cpp.o: ../src/Application.cpp \
 
 /usr/include/bits/types/struct_sched_param.h:
 
+/usr/include/c++/11/x86_64-redhat-linux/bits/basic_file.h:
+
 /usr/include/time.h:
 
 /usr/include/bits/stdio_lim.h:
@@ -547,6 +566,8 @@ CMakeFiles/hackathon-open-gl.dir/src/Application.cpp.o: ../src/Application.cpp \
 /usr/include/c++/11/iostream:
 
 /usr/include/c++/11/backward/binders.h:
+
+/usr/include/c++/11/fstream:
 
 /usr/include/c++/11/bits/cxxabi_forced.h:
 
