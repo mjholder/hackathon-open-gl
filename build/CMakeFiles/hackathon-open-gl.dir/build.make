@@ -83,14 +83,94 @@ CMakeFiles/hackathon-open-gl.dir/src/Application.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hackathon-open-gl.dir/src/Application.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maholder/git_repos/hackathon-open-gl/src/Application.cpp -o CMakeFiles/hackathon-open-gl.dir/src/Application.cpp.s
 
+CMakeFiles/hackathon-open-gl.dir/src/IndexBuffer.cpp.o: CMakeFiles/hackathon-open-gl.dir/flags.make
+CMakeFiles/hackathon-open-gl.dir/src/IndexBuffer.cpp.o: ../src/IndexBuffer.cpp
+CMakeFiles/hackathon-open-gl.dir/src/IndexBuffer.cpp.o: CMakeFiles/hackathon-open-gl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maholder/git_repos/hackathon-open-gl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/hackathon-open-gl.dir/src/IndexBuffer.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hackathon-open-gl.dir/src/IndexBuffer.cpp.o -MF CMakeFiles/hackathon-open-gl.dir/src/IndexBuffer.cpp.o.d -o CMakeFiles/hackathon-open-gl.dir/src/IndexBuffer.cpp.o -c /home/maholder/git_repos/hackathon-open-gl/src/IndexBuffer.cpp
+
+CMakeFiles/hackathon-open-gl.dir/src/IndexBuffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hackathon-open-gl.dir/src/IndexBuffer.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maholder/git_repos/hackathon-open-gl/src/IndexBuffer.cpp > CMakeFiles/hackathon-open-gl.dir/src/IndexBuffer.cpp.i
+
+CMakeFiles/hackathon-open-gl.dir/src/IndexBuffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hackathon-open-gl.dir/src/IndexBuffer.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maholder/git_repos/hackathon-open-gl/src/IndexBuffer.cpp -o CMakeFiles/hackathon-open-gl.dir/src/IndexBuffer.cpp.s
+
+CMakeFiles/hackathon-open-gl.dir/src/Renderer.cpp.o: CMakeFiles/hackathon-open-gl.dir/flags.make
+CMakeFiles/hackathon-open-gl.dir/src/Renderer.cpp.o: ../src/Renderer.cpp
+CMakeFiles/hackathon-open-gl.dir/src/Renderer.cpp.o: CMakeFiles/hackathon-open-gl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maholder/git_repos/hackathon-open-gl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/hackathon-open-gl.dir/src/Renderer.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hackathon-open-gl.dir/src/Renderer.cpp.o -MF CMakeFiles/hackathon-open-gl.dir/src/Renderer.cpp.o.d -o CMakeFiles/hackathon-open-gl.dir/src/Renderer.cpp.o -c /home/maholder/git_repos/hackathon-open-gl/src/Renderer.cpp
+
+CMakeFiles/hackathon-open-gl.dir/src/Renderer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hackathon-open-gl.dir/src/Renderer.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maholder/git_repos/hackathon-open-gl/src/Renderer.cpp > CMakeFiles/hackathon-open-gl.dir/src/Renderer.cpp.i
+
+CMakeFiles/hackathon-open-gl.dir/src/Renderer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hackathon-open-gl.dir/src/Renderer.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maholder/git_repos/hackathon-open-gl/src/Renderer.cpp -o CMakeFiles/hackathon-open-gl.dir/src/Renderer.cpp.s
+
+CMakeFiles/hackathon-open-gl.dir/src/Shader.cpp.o: CMakeFiles/hackathon-open-gl.dir/flags.make
+CMakeFiles/hackathon-open-gl.dir/src/Shader.cpp.o: ../src/Shader.cpp
+CMakeFiles/hackathon-open-gl.dir/src/Shader.cpp.o: CMakeFiles/hackathon-open-gl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maholder/git_repos/hackathon-open-gl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/hackathon-open-gl.dir/src/Shader.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hackathon-open-gl.dir/src/Shader.cpp.o -MF CMakeFiles/hackathon-open-gl.dir/src/Shader.cpp.o.d -o CMakeFiles/hackathon-open-gl.dir/src/Shader.cpp.o -c /home/maholder/git_repos/hackathon-open-gl/src/Shader.cpp
+
+CMakeFiles/hackathon-open-gl.dir/src/Shader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hackathon-open-gl.dir/src/Shader.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maholder/git_repos/hackathon-open-gl/src/Shader.cpp > CMakeFiles/hackathon-open-gl.dir/src/Shader.cpp.i
+
+CMakeFiles/hackathon-open-gl.dir/src/Shader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hackathon-open-gl.dir/src/Shader.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maholder/git_repos/hackathon-open-gl/src/Shader.cpp -o CMakeFiles/hackathon-open-gl.dir/src/Shader.cpp.s
+
+CMakeFiles/hackathon-open-gl.dir/src/VertexArray.cpp.o: CMakeFiles/hackathon-open-gl.dir/flags.make
+CMakeFiles/hackathon-open-gl.dir/src/VertexArray.cpp.o: ../src/VertexArray.cpp
+CMakeFiles/hackathon-open-gl.dir/src/VertexArray.cpp.o: CMakeFiles/hackathon-open-gl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maholder/git_repos/hackathon-open-gl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/hackathon-open-gl.dir/src/VertexArray.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hackathon-open-gl.dir/src/VertexArray.cpp.o -MF CMakeFiles/hackathon-open-gl.dir/src/VertexArray.cpp.o.d -o CMakeFiles/hackathon-open-gl.dir/src/VertexArray.cpp.o -c /home/maholder/git_repos/hackathon-open-gl/src/VertexArray.cpp
+
+CMakeFiles/hackathon-open-gl.dir/src/VertexArray.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hackathon-open-gl.dir/src/VertexArray.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maholder/git_repos/hackathon-open-gl/src/VertexArray.cpp > CMakeFiles/hackathon-open-gl.dir/src/VertexArray.cpp.i
+
+CMakeFiles/hackathon-open-gl.dir/src/VertexArray.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hackathon-open-gl.dir/src/VertexArray.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maholder/git_repos/hackathon-open-gl/src/VertexArray.cpp -o CMakeFiles/hackathon-open-gl.dir/src/VertexArray.cpp.s
+
+CMakeFiles/hackathon-open-gl.dir/src/VertexBuffer.cpp.o: CMakeFiles/hackathon-open-gl.dir/flags.make
+CMakeFiles/hackathon-open-gl.dir/src/VertexBuffer.cpp.o: ../src/VertexBuffer.cpp
+CMakeFiles/hackathon-open-gl.dir/src/VertexBuffer.cpp.o: CMakeFiles/hackathon-open-gl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maholder/git_repos/hackathon-open-gl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/hackathon-open-gl.dir/src/VertexBuffer.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hackathon-open-gl.dir/src/VertexBuffer.cpp.o -MF CMakeFiles/hackathon-open-gl.dir/src/VertexBuffer.cpp.o.d -o CMakeFiles/hackathon-open-gl.dir/src/VertexBuffer.cpp.o -c /home/maholder/git_repos/hackathon-open-gl/src/VertexBuffer.cpp
+
+CMakeFiles/hackathon-open-gl.dir/src/VertexBuffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hackathon-open-gl.dir/src/VertexBuffer.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maholder/git_repos/hackathon-open-gl/src/VertexBuffer.cpp > CMakeFiles/hackathon-open-gl.dir/src/VertexBuffer.cpp.i
+
+CMakeFiles/hackathon-open-gl.dir/src/VertexBuffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hackathon-open-gl.dir/src/VertexBuffer.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maholder/git_repos/hackathon-open-gl/src/VertexBuffer.cpp -o CMakeFiles/hackathon-open-gl.dir/src/VertexBuffer.cpp.s
+
 # Object files for target hackathon-open-gl
 hackathon__open__gl_OBJECTS = \
-"CMakeFiles/hackathon-open-gl.dir/src/Application.cpp.o"
+"CMakeFiles/hackathon-open-gl.dir/src/Application.cpp.o" \
+"CMakeFiles/hackathon-open-gl.dir/src/IndexBuffer.cpp.o" \
+"CMakeFiles/hackathon-open-gl.dir/src/Renderer.cpp.o" \
+"CMakeFiles/hackathon-open-gl.dir/src/Shader.cpp.o" \
+"CMakeFiles/hackathon-open-gl.dir/src/VertexArray.cpp.o" \
+"CMakeFiles/hackathon-open-gl.dir/src/VertexBuffer.cpp.o"
 
 # External object files for target hackathon-open-gl
 hackathon__open__gl_EXTERNAL_OBJECTS =
 
 hackathon-open-gl: CMakeFiles/hackathon-open-gl.dir/src/Application.cpp.o
+hackathon-open-gl: CMakeFiles/hackathon-open-gl.dir/src/IndexBuffer.cpp.o
+hackathon-open-gl: CMakeFiles/hackathon-open-gl.dir/src/Renderer.cpp.o
+hackathon-open-gl: CMakeFiles/hackathon-open-gl.dir/src/Shader.cpp.o
+hackathon-open-gl: CMakeFiles/hackathon-open-gl.dir/src/VertexArray.cpp.o
+hackathon-open-gl: CMakeFiles/hackathon-open-gl.dir/src/VertexBuffer.cpp.o
 hackathon-open-gl: CMakeFiles/hackathon-open-gl.dir/build.make
 hackathon-open-gl: /usr/local/lib64/libglfw3.a
 hackathon-open-gl: /usr/lib64/libGLEW.so
@@ -100,7 +180,7 @@ hackathon-open-gl: /usr/lib64/libX11.so
 hackathon-open-gl: /usr/lib64/libGLX.so
 hackathon-open-gl: /usr/lib64/libOpenGL.so
 hackathon-open-gl: CMakeFiles/hackathon-open-gl.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/maholder/git_repos/hackathon-open-gl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable hackathon-open-gl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/maholder/git_repos/hackathon-open-gl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable hackathon-open-gl"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hackathon-open-gl.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
