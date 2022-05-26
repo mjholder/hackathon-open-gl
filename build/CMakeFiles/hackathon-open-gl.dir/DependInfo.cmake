@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/maholder/git_repos/hackathon-open-gl/src/IndexBuffer.cpp" "CMakeFiles/hackathon-open-gl.dir/src/IndexBuffer.cpp.o" "gcc" "CMakeFiles/hackathon-open-gl.dir/src/IndexBuffer.cpp.o.d"
   "/home/maholder/git_repos/hackathon-open-gl/src/Renderer.cpp" "CMakeFiles/hackathon-open-gl.dir/src/Renderer.cpp.o" "gcc" "CMakeFiles/hackathon-open-gl.dir/src/Renderer.cpp.o.d"
   "/home/maholder/git_repos/hackathon-open-gl/src/Shader.cpp" "CMakeFiles/hackathon-open-gl.dir/src/Shader.cpp.o" "gcc" "CMakeFiles/hackathon-open-gl.dir/src/Shader.cpp.o.d"
+  "/home/maholder/git_repos/hackathon-open-gl/src/Texture.cpp" "CMakeFiles/hackathon-open-gl.dir/src/Texture.cpp.o" "gcc" "CMakeFiles/hackathon-open-gl.dir/src/Texture.cpp.o.d"
   "/home/maholder/git_repos/hackathon-open-gl/src/VertexArray.cpp" "CMakeFiles/hackathon-open-gl.dir/src/VertexArray.cpp.o" "gcc" "CMakeFiles/hackathon-open-gl.dir/src/VertexArray.cpp.o.d"
   "/home/maholder/git_repos/hackathon-open-gl/src/VertexBuffer.cpp" "CMakeFiles/hackathon-open-gl.dir/src/VertexBuffer.cpp.o" "gcc" "CMakeFiles/hackathon-open-gl.dir/src/VertexBuffer.cpp.o.d"
   )

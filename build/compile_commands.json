@@ -21,6 +21,11 @@
 },
 {
   "directory": "/home/maholder/git_repos/hackathon-open-gl/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/hackathon-open-gl.dir/src/Texture.cpp.o -c /home/maholder/git_repos/hackathon-open-gl/src/Texture.cpp",
+  "file": "/home/maholder/git_repos/hackathon-open-gl/src/Texture.cpp"
+},
+{
+  "directory": "/home/maholder/git_repos/hackathon-open-gl/build",
   "command": "/usr/bin/g++   -g -o CMakeFiles/hackathon-open-gl.dir/src/VertexArray.cpp.o -c /home/maholder/git_repos/hackathon-open-gl/src/VertexArray.cpp",
   "file": "/home/maholder/git_repos/hackathon-open-gl/src/VertexArray.cpp"
 },
