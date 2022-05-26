@@ -11,6 +11,7 @@
 #include "IndexBuffer.h"
 #include "VertexArray.h"
 #include "Shader.h"
+#include "Texture.h"
 
 
 int main(void)
@@ -41,13 +42,13 @@ int main(void)
 
     std::cout << glGetString(GL_VERSION) << std::endl;
 
-    // 6 vertex positions (x, y)
+    // 6 vertex positions (x, y) in screenspace and (x, y) for texture
     // Note repeate of some vertices, these are extra and wasteful
-    float positions[12] = {
-        -0.5f, -0.5f, // 0
-         0.5f, -0.5f, // 1
-         0.5f,  0.5f, // 2
-        -0.5f,  0.5f, // 3
+    float positions[] = {
+        -0.5f, -0.5f, 0.0f, 0.0f, // 0
+         0.5f, -0.5f, 1.0f, 0.0f, // 1
+         0.5f,  0.5f, 1.0f, 1.0f, // 2
+        -0.5f,  0.5f, 0.0f, 1.0f, // 3
     };
 
     unsigned int indices[] = {
@@ -55,12 +56,20 @@ int main(void)
         2, 3, 0,
     };
 
+    // This tells OpenGL how to handle blending the alpha channel
+    GLCall(glEnable(GL_BLEND));
+    GLCall(glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA));
+
     VertexArray va;
 
     /* define vertext buffer */
-    VertexBuffer vb(positions, 4 * 2 * sizeof(float));
+    // 4 vertices * 4 data points * size of data points (floats)
+    VertexBuffer vb(positions, 4 * 4 * sizeof(float));
 
     VertexBufferLayout layout;
+    // 2 floats for screenspace (x, y)
+    layout.Push<float>(2);
+    // 2 floats for texture coords (x, y)
     layout.Push<float>(2);
     va.AddBuffer(vb, layout);
 
@@ -69,7 +78,11 @@ int main(void)
 
     Shader shader("/home/maholder/git_repos/hackathon-open-gl/res/shaders/Basic.shader");
     shader.Bind();
-    shader.SetUniform4f("u_Color", 0.2f, 0.3f, 0.8f, 1.0f);
+
+    Texture texture("/home/maholder/git_repos/hackathon-open-gl/res/textures/rh-logo.png");
+    texture.Bind();
+    // '0' here is the texture slot we assigned the texture. 0 is default, otherwise match whatever is in texture.Bind(x) above
+    shader.SetUniform1i("u_Texture", 0);
 
     va.Unbind();
     shader.Unbind();
@@ -88,7 +101,6 @@ int main(void)
         renderer.Clear();
 
         shader.Bind();
-        shader.SetUniform4f("u_Color", r, 0.3f, 0.8f, 1.0f);
 
         renderer.Draw(va, ib, shader);
 

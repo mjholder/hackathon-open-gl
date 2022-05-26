@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/hackathon-open-gl.dir/src/Renderer.cpp.o.d"
   "CMakeFiles/hackathon-open-gl.dir/src/Shader.cpp.o"
   "CMakeFiles/hackathon-open-gl.dir/src/Shader.cpp.o.d"
+  "CMakeFiles/hackathon-open-gl.dir/src/Texture.cpp.o"
+  "CMakeFiles/hackathon-open-gl.dir/src/Texture.cpp.o.d"
   "CMakeFiles/hackathon-open-gl.dir/src/VertexArray.cpp.o"
   "CMakeFiles/hackathon-open-gl.dir/src/VertexArray.cpp.o.d"
   "CMakeFiles/hackathon-open-gl.dir/src/VertexBuffer.cpp.o"
