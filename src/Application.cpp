@@ -12,6 +12,8 @@
 #include "VertexArray.h"
 #include "Shader.h"
 #include "Texture.h"
+#include "vendor/glm/glm.hpp"
+#include "vendor/glm/gtc/matrix_transform.hpp"
 
 
 int main(void)
@@ -76,13 +78,21 @@ int main(void)
     /* define index buffer */
     IndexBuffer ib(indices, 6);
 
+    /* Create projection matrix */
+    // this is an orthographic matrix that matches our 4:3 aspect ratio
+    glm::mat4 proj = glm::ortho(-2.0f, 2.0f, -1.5f, 1.5f, -1.0f, 1.0f);
+
     Shader shader("/home/maholder/git_repos/hackathon-open-gl/res/shaders/Basic.shader");
     shader.Bind();
 
     Texture texture("/home/maholder/git_repos/hackathon-open-gl/res/textures/rh-logo.png");
     texture.Bind();
+
     // '0' here is the texture slot we assigned the texture. 0 is default, otherwise match whatever is in texture.Bind(x) above
     shader.SetUniform1i("u_Texture", 0);
+
+    // Set the projection matrix in the shader
+    shader.SetUniformMat4f("u_MVP", proj);
 
     va.Unbind();
     shader.Unbind();

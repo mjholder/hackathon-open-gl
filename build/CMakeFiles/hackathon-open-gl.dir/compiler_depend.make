@@ -210,13 +210,207 @@ CMakeFiles/hackathon-open-gl.dir/src/Application.cpp.o: ../src/Application.cpp \
   /usr/include/c++/11/bits/node_handle.h \
   /usr/include/c++/11/bits/unordered_map.h \
   /usr/include/c++/11/bits/erase_if.h \
+  ../src/vendor/glm/glm.hpp \
+  ../src/vendor/glm/detail/_fixes.hpp \
+  /usr/include/c++/11/cmath \
+  /usr/include/math.h \
+  /usr/include/bits/math-vector.h \
+  /usr/include/bits/libm-simd-decl-stubs.h \
+  /usr/include/bits/flt-eval-method.h \
+  /usr/include/bits/fp-logb.h \
+  /usr/include/bits/fp-fast.h \
+  /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls.h \
+  /usr/include/bits/mathcalls-narrow.h \
+  /usr/include/bits/iscanonical.h \
+  /usr/include/c++/11/bits/specfun.h \
+  /usr/include/c++/11/limits \
+  /usr/include/c++/11/tr1/gamma.tcc \
+  /usr/include/c++/11/tr1/special_function_util.h \
+  /usr/include/c++/11/tr1/bessel_function.tcc \
+  /usr/include/c++/11/tr1/beta_function.tcc \
+  /usr/include/c++/11/tr1/ell_integral.tcc \
+  /usr/include/c++/11/tr1/exp_integral.tcc \
+  /usr/include/c++/11/tr1/hypergeometric.tcc \
+  /usr/include/c++/11/tr1/legendre_function.tcc \
+  /usr/include/c++/11/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/11/tr1/poly_hermite.tcc \
+  /usr/include/c++/11/tr1/poly_laguerre.tcc \
+  /usr/include/c++/11/tr1/riemann_zeta.tcc \
+  ../src/vendor/glm/detail/setup.hpp \
+  /usr/include/c++/11/cassert \
+  /usr/include/assert.h \
+  /usr/include/c++/11/cstddef \
+  ../src/vendor/glm/simd/platform.h \
+  /usr/include/c++/11/climits \
+  /usr/lib/gcc/x86_64-redhat-linux/11/include/limits.h \
+  /usr/lib/gcc/x86_64-redhat-linux/11/include/syslimits.h \
+  /usr/include/limits.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/xopen_lim.h \
+  /usr/include/bits/uio_lim.h \
+  /usr/include/c++/11/cfloat \
+  /usr/lib/gcc/x86_64-redhat-linux/11/include/float.h \
+  ../src/vendor/glm/fwd.hpp \
+  ../src/vendor/glm/detail/qualifier.hpp \
+  ../src/vendor/glm/detail/setup.hpp \
+  ../src/vendor/glm/vec2.hpp \
+  ../src/vendor/glm/ext/vector_bool2.hpp \
+  ../src/vendor/glm/detail/type_vec2.hpp \
+  ../src/vendor/glm/detail/type_vec2.inl \
+  ../src/vendor/glm/detail/compute_vector_relational.hpp \
+  ../src/vendor/glm/detail/setup.hpp \
+  ../src/vendor/glm/ext/vector_bool2_precision.hpp \
+  ../src/vendor/glm/ext/vector_float2.hpp \
+  ../src/vendor/glm/ext/vector_float2_precision.hpp \
+  ../src/vendor/glm/ext/vector_double2.hpp \
+  ../src/vendor/glm/ext/vector_double2_precision.hpp \
+  ../src/vendor/glm/ext/vector_int2.hpp \
+  ../src/vendor/glm/ext/vector_int2_sized.hpp \
+  ../src/vendor/glm/ext/scalar_int_sized.hpp \
+  ../src/vendor/glm/detail/setup.hpp \
+  ../src/vendor/glm/ext/vector_uint2.hpp \
+  ../src/vendor/glm/ext/vector_uint2_sized.hpp \
+  ../src/vendor/glm/ext/scalar_uint_sized.hpp \
+  ../src/vendor/glm/vec3.hpp \
+  ../src/vendor/glm/ext/vector_bool3.hpp \
+  ../src/vendor/glm/detail/type_vec3.hpp \
+  ../src/vendor/glm/detail/type_vec3.inl \
+  ../src/vendor/glm/ext/vector_bool3_precision.hpp \
+  ../src/vendor/glm/ext/vector_float3.hpp \
+  ../src/vendor/glm/ext/vector_float3_precision.hpp \
+  ../src/vendor/glm/ext/vector_double3.hpp \
+  ../src/vendor/glm/ext/vector_double3_precision.hpp \
+  ../src/vendor/glm/ext/vector_int3.hpp \
+  ../src/vendor/glm/ext/vector_int3_sized.hpp \
+  ../src/vendor/glm/ext/vector_uint3.hpp \
+  ../src/vendor/glm/ext/vector_uint3_sized.hpp \
+  ../src/vendor/glm/vec4.hpp \
+  ../src/vendor/glm/ext/vector_bool4.hpp \
+  ../src/vendor/glm/detail/type_vec4.hpp \
+  ../src/vendor/glm/detail/type_vec4.inl \
+  ../src/vendor/glm/ext/vector_bool4_precision.hpp \
+  ../src/vendor/glm/ext/vector_float4.hpp \
+  ../src/vendor/glm/ext/vector_float4_precision.hpp \
+  ../src/vendor/glm/ext/vector_double4.hpp \
+  ../src/vendor/glm/ext/vector_double4_precision.hpp \
+  ../src/vendor/glm/detail/setup.hpp \
+  ../src/vendor/glm/ext/vector_int4.hpp \
+  ../src/vendor/glm/ext/vector_int4_sized.hpp \
+  ../src/vendor/glm/ext/vector_uint4.hpp \
+  ../src/vendor/glm/ext/vector_uint4_sized.hpp \
+  ../src/vendor/glm/mat2x2.hpp \
+  ../src/vendor/glm/ext/matrix_double2x2.hpp \
+  ../src/vendor/glm/detail/type_mat2x2.hpp \
+  ../src/vendor/glm/detail/type_mat2x2.inl \
+  ../src/vendor/glm/matrix.hpp \
+  ../src/vendor/glm/detail/setup.hpp \
+  ../src/vendor/glm/mat2x3.hpp \
+  ../src/vendor/glm/ext/matrix_double2x3.hpp \
+  ../src/vendor/glm/detail/type_mat2x3.hpp \
+  ../src/vendor/glm/detail/type_mat2x3.inl \
+  ../src/vendor/glm/ext/matrix_double2x3_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float2x3.hpp \
+  ../src/vendor/glm/ext/matrix_float2x3_precision.hpp \
+  ../src/vendor/glm/mat2x4.hpp \
+  ../src/vendor/glm/ext/matrix_double2x4.hpp \
+  ../src/vendor/glm/detail/type_mat2x4.hpp \
+  ../src/vendor/glm/detail/type_mat2x4.inl \
+  ../src/vendor/glm/ext/matrix_double2x4_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float2x4.hpp \
+  ../src/vendor/glm/ext/matrix_float2x4_precision.hpp \
+  ../src/vendor/glm/mat3x2.hpp \
+  ../src/vendor/glm/ext/matrix_double3x2.hpp \
+  ../src/vendor/glm/detail/type_mat3x2.hpp \
+  ../src/vendor/glm/detail/type_mat3x2.inl \
+  ../src/vendor/glm/ext/matrix_double3x2_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float3x2.hpp \
+  ../src/vendor/glm/ext/matrix_float3x2_precision.hpp \
+  ../src/vendor/glm/mat3x3.hpp \
+  ../src/vendor/glm/ext/matrix_double3x3.hpp \
+  ../src/vendor/glm/detail/type_mat3x3.hpp \
+  ../src/vendor/glm/detail/type_mat3x3.inl \
+  ../src/vendor/glm/ext/matrix_double3x3_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float3x3.hpp \
+  ../src/vendor/glm/ext/matrix_float3x3_precision.hpp \
+  ../src/vendor/glm/mat3x4.hpp \
+  ../src/vendor/glm/ext/matrix_double3x4.hpp \
+  ../src/vendor/glm/detail/type_mat3x4.hpp \
+  ../src/vendor/glm/detail/type_mat3x4.inl \
+  ../src/vendor/glm/ext/matrix_double3x4_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float3x4.hpp \
+  ../src/vendor/glm/ext/matrix_float3x4_precision.hpp \
+  ../src/vendor/glm/mat4x2.hpp \
+  ../src/vendor/glm/ext/matrix_double4x2.hpp \
+  ../src/vendor/glm/detail/type_mat4x2.hpp \
+  ../src/vendor/glm/detail/type_mat4x2.inl \
+  ../src/vendor/glm/ext/matrix_double4x2_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float4x2.hpp \
+  ../src/vendor/glm/ext/matrix_float4x2_precision.hpp \
+  ../src/vendor/glm/mat4x3.hpp \
+  ../src/vendor/glm/ext/matrix_double4x3.hpp \
+  ../src/vendor/glm/detail/type_mat4x3.hpp \
+  ../src/vendor/glm/detail/type_mat4x3.inl \
+  ../src/vendor/glm/ext/matrix_double4x3_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float4x3.hpp \
+  ../src/vendor/glm/ext/matrix_float4x3_precision.hpp \
+  ../src/vendor/glm/mat4x4.hpp \
+  ../src/vendor/glm/ext/matrix_double4x4.hpp \
+  ../src/vendor/glm/detail/type_mat4x4.hpp \
+  ../src/vendor/glm/detail/type_mat4x4.inl \
+  ../src/vendor/glm/ext/matrix_double4x4_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float4x4.hpp \
+  ../src/vendor/glm/ext/matrix_float4x4_precision.hpp \
+  ../src/vendor/glm/detail/func_matrix.inl \
+  ../src/vendor/glm/geometric.hpp \
+  ../src/vendor/glm/detail/func_geometric.inl \
+  ../src/vendor/glm/exponential.hpp \
+  ../src/vendor/glm/detail/type_vec1.hpp \
+  ../src/vendor/glm/detail/type_vec1.inl \
+  ../src/vendor/glm/detail/func_exponential.inl \
+  ../src/vendor/glm/vector_relational.hpp \
+  ../src/vendor/glm/detail/setup.hpp \
+  ../src/vendor/glm/detail/func_vector_relational.inl \
+  ../src/vendor/glm/detail/_vectorize.hpp \
+  ../src/vendor/glm/common.hpp \
+  ../src/vendor/glm/detail/_fixes.hpp \
+  ../src/vendor/glm/detail/func_common.inl \
+  ../src/vendor/glm/detail/compute_common.hpp \
+  ../src/vendor/glm/detail/setup.hpp \
+  ../src/vendor/glm/ext/matrix_double2x2_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float2x2.hpp \
+  ../src/vendor/glm/ext/matrix_float2x2_precision.hpp \
+  ../src/vendor/glm/trigonometric.hpp \
+  ../src/vendor/glm/detail/func_trigonometric.inl \
+  ../src/vendor/glm/packing.hpp \
+  ../src/vendor/glm/detail/func_packing.inl \
+  ../src/vendor/glm/detail/type_half.hpp \
+  ../src/vendor/glm/detail/type_half.inl \
+  ../src/vendor/glm/integer.hpp \
+  ../src/vendor/glm/detail/func_integer.inl \
   ../src/VertexBufferLayout.h \
   /usr/include/c++/11/vector \
   /usr/include/c++/11/bits/stl_uninitialized.h \
   /usr/include/c++/11/bits/stl_vector.h \
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc \
-  ../src/Texture.h
+  ../src/Texture.h \
+  ../src/vendor/glm/gtc/matrix_transform.hpp \
+  ../src/vendor/glm/ext/matrix_projection.hpp \
+  ../src/vendor/glm/gtc/constants.hpp \
+  ../src/vendor/glm/ext/scalar_constants.hpp \
+  ../src/vendor/glm/detail/setup.hpp \
+  ../src/vendor/glm/ext/scalar_constants.inl \
+  ../src/vendor/glm/gtc/constants.inl \
+  ../src/vendor/glm/ext/matrix_projection.inl \
+  ../src/vendor/glm/ext/matrix_clip_space.hpp \
+  ../src/vendor/glm/ext/matrix_clip_space.inl \
+  ../src/vendor/glm/ext/matrix_transform.hpp \
+  ../src/vendor/glm/ext/matrix_transform.inl \
+  ../src/vendor/glm/gtc/matrix_transform.inl
 
 CMakeFiles/hackathon-open-gl.dir/src/IndexBuffer.cpp.o: ../src/IndexBuffer.cpp \
   /usr/include/stdc-predef.h \
@@ -389,7 +583,188 @@ CMakeFiles/hackathon-open-gl.dir/src/IndexBuffer.cpp.o: ../src/IndexBuffer.cpp \
   /usr/include/c++/11/bits/enable_special_members.h \
   /usr/include/c++/11/bits/node_handle.h \
   /usr/include/c++/11/bits/unordered_map.h \
-  /usr/include/c++/11/bits/erase_if.h
+  /usr/include/c++/11/bits/erase_if.h \
+  ../src/vendor/glm/glm.hpp \
+  ../src/vendor/glm/detail/_fixes.hpp \
+  /usr/include/c++/11/cmath \
+  /usr/include/math.h \
+  /usr/include/bits/math-vector.h \
+  /usr/include/bits/libm-simd-decl-stubs.h \
+  /usr/include/bits/flt-eval-method.h \
+  /usr/include/bits/fp-logb.h \
+  /usr/include/bits/fp-fast.h \
+  /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls.h \
+  /usr/include/bits/mathcalls-narrow.h \
+  /usr/include/bits/iscanonical.h \
+  /usr/include/c++/11/bits/specfun.h \
+  /usr/include/c++/11/limits \
+  /usr/include/c++/11/tr1/gamma.tcc \
+  /usr/include/c++/11/tr1/special_function_util.h \
+  /usr/include/c++/11/tr1/bessel_function.tcc \
+  /usr/include/c++/11/tr1/beta_function.tcc \
+  /usr/include/c++/11/tr1/ell_integral.tcc \
+  /usr/include/c++/11/tr1/exp_integral.tcc \
+  /usr/include/c++/11/tr1/hypergeometric.tcc \
+  /usr/include/c++/11/tr1/legendre_function.tcc \
+  /usr/include/c++/11/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/11/tr1/poly_hermite.tcc \
+  /usr/include/c++/11/tr1/poly_laguerre.tcc \
+  /usr/include/c++/11/tr1/riemann_zeta.tcc \
+  ../src/vendor/glm/detail/setup.hpp \
+  /usr/include/c++/11/cassert \
+  /usr/include/assert.h \
+  /usr/include/c++/11/cstddef \
+  ../src/vendor/glm/simd/platform.h \
+  /usr/include/c++/11/climits \
+  /usr/lib/gcc/x86_64-redhat-linux/11/include/limits.h \
+  /usr/lib/gcc/x86_64-redhat-linux/11/include/syslimits.h \
+  /usr/include/limits.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/xopen_lim.h \
+  /usr/include/bits/uio_lim.h \
+  /usr/include/c++/11/cfloat \
+  /usr/lib/gcc/x86_64-redhat-linux/11/include/float.h \
+  ../src/vendor/glm/fwd.hpp \
+  ../src/vendor/glm/detail/qualifier.hpp \
+  ../src/vendor/glm/detail/setup.hpp \
+  ../src/vendor/glm/vec2.hpp \
+  ../src/vendor/glm/ext/vector_bool2.hpp \
+  ../src/vendor/glm/detail/type_vec2.hpp \
+  ../src/vendor/glm/detail/type_vec2.inl \
+  ../src/vendor/glm/detail/compute_vector_relational.hpp \
+  ../src/vendor/glm/detail/setup.hpp \
+  ../src/vendor/glm/ext/vector_bool2_precision.hpp \
+  ../src/vendor/glm/ext/vector_float2.hpp \
+  ../src/vendor/glm/ext/vector_float2_precision.hpp \
+  ../src/vendor/glm/ext/vector_double2.hpp \
+  ../src/vendor/glm/ext/vector_double2_precision.hpp \
+  ../src/vendor/glm/ext/vector_int2.hpp \
+  ../src/vendor/glm/ext/vector_int2_sized.hpp \
+  ../src/vendor/glm/ext/scalar_int_sized.hpp \
+  ../src/vendor/glm/detail/setup.hpp \
+  ../src/vendor/glm/ext/vector_uint2.hpp \
+  ../src/vendor/glm/ext/vector_uint2_sized.hpp \
+  ../src/vendor/glm/ext/scalar_uint_sized.hpp \
+  ../src/vendor/glm/vec3.hpp \
+  ../src/vendor/glm/ext/vector_bool3.hpp \
+  ../src/vendor/glm/detail/type_vec3.hpp \
+  ../src/vendor/glm/detail/type_vec3.inl \
+  ../src/vendor/glm/ext/vector_bool3_precision.hpp \
+  ../src/vendor/glm/ext/vector_float3.hpp \
+  ../src/vendor/glm/ext/vector_float3_precision.hpp \
+  ../src/vendor/glm/ext/vector_double3.hpp \
+  ../src/vendor/glm/ext/vector_double3_precision.hpp \
+  ../src/vendor/glm/ext/vector_int3.hpp \
+  ../src/vendor/glm/ext/vector_int3_sized.hpp \
+  ../src/vendor/glm/ext/vector_uint3.hpp \
+  ../src/vendor/glm/ext/vector_uint3_sized.hpp \
+  ../src/vendor/glm/vec4.hpp \
+  ../src/vendor/glm/ext/vector_bool4.hpp \
+  ../src/vendor/glm/detail/type_vec4.hpp \
+  ../src/vendor/glm/detail/type_vec4.inl \
+  ../src/vendor/glm/ext/vector_bool4_precision.hpp \
+  ../src/vendor/glm/ext/vector_float4.hpp \
+  ../src/vendor/glm/ext/vector_float4_precision.hpp \
+  ../src/vendor/glm/ext/vector_double4.hpp \
+  ../src/vendor/glm/ext/vector_double4_precision.hpp \
+  ../src/vendor/glm/detail/setup.hpp \
+  ../src/vendor/glm/ext/vector_int4.hpp \
+  ../src/vendor/glm/ext/vector_int4_sized.hpp \
+  ../src/vendor/glm/ext/vector_uint4.hpp \
+  ../src/vendor/glm/ext/vector_uint4_sized.hpp \
+  ../src/vendor/glm/mat2x2.hpp \
+  ../src/vendor/glm/ext/matrix_double2x2.hpp \
+  ../src/vendor/glm/detail/type_mat2x2.hpp \
+  ../src/vendor/glm/detail/type_mat2x2.inl \
+  ../src/vendor/glm/matrix.hpp \
+  ../src/vendor/glm/detail/setup.hpp \
+  ../src/vendor/glm/mat2x3.hpp \
+  ../src/vendor/glm/ext/matrix_double2x3.hpp \
+  ../src/vendor/glm/detail/type_mat2x3.hpp \
+  ../src/vendor/glm/detail/type_mat2x3.inl \
+  ../src/vendor/glm/ext/matrix_double2x3_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float2x3.hpp \
+  ../src/vendor/glm/ext/matrix_float2x3_precision.hpp \
+  ../src/vendor/glm/mat2x4.hpp \
+  ../src/vendor/glm/ext/matrix_double2x4.hpp \
+  ../src/vendor/glm/detail/type_mat2x4.hpp \
+  ../src/vendor/glm/detail/type_mat2x4.inl \
+  ../src/vendor/glm/ext/matrix_double2x4_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float2x4.hpp \
+  ../src/vendor/glm/ext/matrix_float2x4_precision.hpp \
+  ../src/vendor/glm/mat3x2.hpp \
+  ../src/vendor/glm/ext/matrix_double3x2.hpp \
+  ../src/vendor/glm/detail/type_mat3x2.hpp \
+  ../src/vendor/glm/detail/type_mat3x2.inl \
+  ../src/vendor/glm/ext/matrix_double3x2_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float3x2.hpp \
+  ../src/vendor/glm/ext/matrix_float3x2_precision.hpp \
+  ../src/vendor/glm/mat3x3.hpp \
+  ../src/vendor/glm/ext/matrix_double3x3.hpp \
+  ../src/vendor/glm/detail/type_mat3x3.hpp \
+  ../src/vendor/glm/detail/type_mat3x3.inl \
+  ../src/vendor/glm/ext/matrix_double3x3_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float3x3.hpp \
+  ../src/vendor/glm/ext/matrix_float3x3_precision.hpp \
+  ../src/vendor/glm/mat3x4.hpp \
+  ../src/vendor/glm/ext/matrix_double3x4.hpp \
+  ../src/vendor/glm/detail/type_mat3x4.hpp \
+  ../src/vendor/glm/detail/type_mat3x4.inl \
+  ../src/vendor/glm/ext/matrix_double3x4_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float3x4.hpp \
+  ../src/vendor/glm/ext/matrix_float3x4_precision.hpp \
+  ../src/vendor/glm/mat4x2.hpp \
+  ../src/vendor/glm/ext/matrix_double4x2.hpp \
+  ../src/vendor/glm/detail/type_mat4x2.hpp \
+  ../src/vendor/glm/detail/type_mat4x2.inl \
+  ../src/vendor/glm/ext/matrix_double4x2_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float4x2.hpp \
+  ../src/vendor/glm/ext/matrix_float4x2_precision.hpp \
+  ../src/vendor/glm/mat4x3.hpp \
+  ../src/vendor/glm/ext/matrix_double4x3.hpp \
+  ../src/vendor/glm/detail/type_mat4x3.hpp \
+  ../src/vendor/glm/detail/type_mat4x3.inl \
+  ../src/vendor/glm/ext/matrix_double4x3_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float4x3.hpp \
+  ../src/vendor/glm/ext/matrix_float4x3_precision.hpp \
+  ../src/vendor/glm/mat4x4.hpp \
+  ../src/vendor/glm/ext/matrix_double4x4.hpp \
+  ../src/vendor/glm/detail/type_mat4x4.hpp \
+  ../src/vendor/glm/detail/type_mat4x4.inl \
+  ../src/vendor/glm/ext/matrix_double4x4_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float4x4.hpp \
+  ../src/vendor/glm/ext/matrix_float4x4_precision.hpp \
+  ../src/vendor/glm/detail/func_matrix.inl \
+  ../src/vendor/glm/geometric.hpp \
+  ../src/vendor/glm/detail/func_geometric.inl \
+  ../src/vendor/glm/exponential.hpp \
+  ../src/vendor/glm/detail/type_vec1.hpp \
+  ../src/vendor/glm/detail/type_vec1.inl \
+  ../src/vendor/glm/detail/func_exponential.inl \
+  ../src/vendor/glm/vector_relational.hpp \
+  ../src/vendor/glm/detail/setup.hpp \
+  ../src/vendor/glm/detail/func_vector_relational.inl \
+  ../src/vendor/glm/detail/_vectorize.hpp \
+  ../src/vendor/glm/common.hpp \
+  ../src/vendor/glm/detail/_fixes.hpp \
+  ../src/vendor/glm/detail/func_common.inl \
+  ../src/vendor/glm/detail/compute_common.hpp \
+  ../src/vendor/glm/detail/setup.hpp \
+  ../src/vendor/glm/ext/matrix_double2x2_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float2x2.hpp \
+  ../src/vendor/glm/ext/matrix_float2x2_precision.hpp \
+  ../src/vendor/glm/trigonometric.hpp \
+  ../src/vendor/glm/detail/func_trigonometric.inl \
+  ../src/vendor/glm/packing.hpp \
+  ../src/vendor/glm/detail/func_packing.inl \
+  ../src/vendor/glm/detail/type_half.hpp \
+  ../src/vendor/glm/detail/type_half.inl \
+  ../src/vendor/glm/integer.hpp \
+  ../src/vendor/glm/detail/func_integer.inl
 
 CMakeFiles/hackathon-open-gl.dir/src/Renderer.cpp.o: ../src/Renderer.cpp \
   /usr/include/stdc-predef.h \
@@ -563,6 +938,187 @@ CMakeFiles/hackathon-open-gl.dir/src/Renderer.cpp.o: ../src/Renderer.cpp \
   /usr/include/c++/11/bits/node_handle.h \
   /usr/include/c++/11/bits/unordered_map.h \
   /usr/include/c++/11/bits/erase_if.h \
+  ../src/vendor/glm/glm.hpp \
+  ../src/vendor/glm/detail/_fixes.hpp \
+  /usr/include/c++/11/cmath \
+  /usr/include/math.h \
+  /usr/include/bits/math-vector.h \
+  /usr/include/bits/libm-simd-decl-stubs.h \
+  /usr/include/bits/flt-eval-method.h \
+  /usr/include/bits/fp-logb.h \
+  /usr/include/bits/fp-fast.h \
+  /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls.h \
+  /usr/include/bits/mathcalls-narrow.h \
+  /usr/include/bits/iscanonical.h \
+  /usr/include/c++/11/bits/specfun.h \
+  /usr/include/c++/11/limits \
+  /usr/include/c++/11/tr1/gamma.tcc \
+  /usr/include/c++/11/tr1/special_function_util.h \
+  /usr/include/c++/11/tr1/bessel_function.tcc \
+  /usr/include/c++/11/tr1/beta_function.tcc \
+  /usr/include/c++/11/tr1/ell_integral.tcc \
+  /usr/include/c++/11/tr1/exp_integral.tcc \
+  /usr/include/c++/11/tr1/hypergeometric.tcc \
+  /usr/include/c++/11/tr1/legendre_function.tcc \
+  /usr/include/c++/11/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/11/tr1/poly_hermite.tcc \
+  /usr/include/c++/11/tr1/poly_laguerre.tcc \
+  /usr/include/c++/11/tr1/riemann_zeta.tcc \
+  ../src/vendor/glm/detail/setup.hpp \
+  /usr/include/c++/11/cassert \
+  /usr/include/assert.h \
+  /usr/include/c++/11/cstddef \
+  ../src/vendor/glm/simd/platform.h \
+  /usr/include/c++/11/climits \
+  /usr/lib/gcc/x86_64-redhat-linux/11/include/limits.h \
+  /usr/lib/gcc/x86_64-redhat-linux/11/include/syslimits.h \
+  /usr/include/limits.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/xopen_lim.h \
+  /usr/include/bits/uio_lim.h \
+  /usr/include/c++/11/cfloat \
+  /usr/lib/gcc/x86_64-redhat-linux/11/include/float.h \
+  ../src/vendor/glm/fwd.hpp \
+  ../src/vendor/glm/detail/qualifier.hpp \
+  ../src/vendor/glm/detail/setup.hpp \
+  ../src/vendor/glm/vec2.hpp \
+  ../src/vendor/glm/ext/vector_bool2.hpp \
+  ../src/vendor/glm/detail/type_vec2.hpp \
+  ../src/vendor/glm/detail/type_vec2.inl \
+  ../src/vendor/glm/detail/compute_vector_relational.hpp \
+  ../src/vendor/glm/detail/setup.hpp \
+  ../src/vendor/glm/ext/vector_bool2_precision.hpp \
+  ../src/vendor/glm/ext/vector_float2.hpp \
+  ../src/vendor/glm/ext/vector_float2_precision.hpp \
+  ../src/vendor/glm/ext/vector_double2.hpp \
+  ../src/vendor/glm/ext/vector_double2_precision.hpp \
+  ../src/vendor/glm/ext/vector_int2.hpp \
+  ../src/vendor/glm/ext/vector_int2_sized.hpp \
+  ../src/vendor/glm/ext/scalar_int_sized.hpp \
+  ../src/vendor/glm/detail/setup.hpp \
+  ../src/vendor/glm/ext/vector_uint2.hpp \
+  ../src/vendor/glm/ext/vector_uint2_sized.hpp \
+  ../src/vendor/glm/ext/scalar_uint_sized.hpp \
+  ../src/vendor/glm/vec3.hpp \
+  ../src/vendor/glm/ext/vector_bool3.hpp \
+  ../src/vendor/glm/detail/type_vec3.hpp \
+  ../src/vendor/glm/detail/type_vec3.inl \
+  ../src/vendor/glm/ext/vector_bool3_precision.hpp \
+  ../src/vendor/glm/ext/vector_float3.hpp \
+  ../src/vendor/glm/ext/vector_float3_precision.hpp \
+  ../src/vendor/glm/ext/vector_double3.hpp \
+  ../src/vendor/glm/ext/vector_double3_precision.hpp \
+  ../src/vendor/glm/ext/vector_int3.hpp \
+  ../src/vendor/glm/ext/vector_int3_sized.hpp \
+  ../src/vendor/glm/ext/vector_uint3.hpp \
+  ../src/vendor/glm/ext/vector_uint3_sized.hpp \
+  ../src/vendor/glm/vec4.hpp \
+  ../src/vendor/glm/ext/vector_bool4.hpp \
+  ../src/vendor/glm/detail/type_vec4.hpp \
+  ../src/vendor/glm/detail/type_vec4.inl \
+  ../src/vendor/glm/ext/vector_bool4_precision.hpp \
+  ../src/vendor/glm/ext/vector_float4.hpp \
+  ../src/vendor/glm/ext/vector_float4_precision.hpp \
+  ../src/vendor/glm/ext/vector_double4.hpp \
+  ../src/vendor/glm/ext/vector_double4_precision.hpp \
+  ../src/vendor/glm/detail/setup.hpp \
+  ../src/vendor/glm/ext/vector_int4.hpp \
+  ../src/vendor/glm/ext/vector_int4_sized.hpp \
+  ../src/vendor/glm/ext/vector_uint4.hpp \
+  ../src/vendor/glm/ext/vector_uint4_sized.hpp \
+  ../src/vendor/glm/mat2x2.hpp \
+  ../src/vendor/glm/ext/matrix_double2x2.hpp \
+  ../src/vendor/glm/detail/type_mat2x2.hpp \
+  ../src/vendor/glm/detail/type_mat2x2.inl \
+  ../src/vendor/glm/matrix.hpp \
+  ../src/vendor/glm/detail/setup.hpp \
+  ../src/vendor/glm/mat2x3.hpp \
+  ../src/vendor/glm/ext/matrix_double2x3.hpp \
+  ../src/vendor/glm/detail/type_mat2x3.hpp \
+  ../src/vendor/glm/detail/type_mat2x3.inl \
+  ../src/vendor/glm/ext/matrix_double2x3_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float2x3.hpp \
+  ../src/vendor/glm/ext/matrix_float2x3_precision.hpp \
+  ../src/vendor/glm/mat2x4.hpp \
+  ../src/vendor/glm/ext/matrix_double2x4.hpp \
+  ../src/vendor/glm/detail/type_mat2x4.hpp \
+  ../src/vendor/glm/detail/type_mat2x4.inl \
+  ../src/vendor/glm/ext/matrix_double2x4_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float2x4.hpp \
+  ../src/vendor/glm/ext/matrix_float2x4_precision.hpp \
+  ../src/vendor/glm/mat3x2.hpp \
+  ../src/vendor/glm/ext/matrix_double3x2.hpp \
+  ../src/vendor/glm/detail/type_mat3x2.hpp \
+  ../src/vendor/glm/detail/type_mat3x2.inl \
+  ../src/vendor/glm/ext/matrix_double3x2_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float3x2.hpp \
+  ../src/vendor/glm/ext/matrix_float3x2_precision.hpp \
+  ../src/vendor/glm/mat3x3.hpp \
+  ../src/vendor/glm/ext/matrix_double3x3.hpp \
+  ../src/vendor/glm/detail/type_mat3x3.hpp \
+  ../src/vendor/glm/detail/type_mat3x3.inl \
+  ../src/vendor/glm/ext/matrix_double3x3_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float3x3.hpp \
+  ../src/vendor/glm/ext/matrix_float3x3_precision.hpp \
+  ../src/vendor/glm/mat3x4.hpp \
+  ../src/vendor/glm/ext/matrix_double3x4.hpp \
+  ../src/vendor/glm/detail/type_mat3x4.hpp \
+  ../src/vendor/glm/detail/type_mat3x4.inl \
+  ../src/vendor/glm/ext/matrix_double3x4_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float3x4.hpp \
+  ../src/vendor/glm/ext/matrix_float3x4_precision.hpp \
+  ../src/vendor/glm/mat4x2.hpp \
+  ../src/vendor/glm/ext/matrix_double4x2.hpp \
+  ../src/vendor/glm/detail/type_mat4x2.hpp \
+  ../src/vendor/glm/detail/type_mat4x2.inl \
+  ../src/vendor/glm/ext/matrix_double4x2_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float4x2.hpp \
+  ../src/vendor/glm/ext/matrix_float4x2_precision.hpp \
+  ../src/vendor/glm/mat4x3.hpp \
+  ../src/vendor/glm/ext/matrix_double4x3.hpp \
+  ../src/vendor/glm/detail/type_mat4x3.hpp \
+  ../src/vendor/glm/detail/type_mat4x3.inl \
+  ../src/vendor/glm/ext/matrix_double4x3_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float4x3.hpp \
+  ../src/vendor/glm/ext/matrix_float4x3_precision.hpp \
+  ../src/vendor/glm/mat4x4.hpp \
+  ../src/vendor/glm/ext/matrix_double4x4.hpp \
+  ../src/vendor/glm/detail/type_mat4x4.hpp \
+  ../src/vendor/glm/detail/type_mat4x4.inl \
+  ../src/vendor/glm/ext/matrix_double4x4_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float4x4.hpp \
+  ../src/vendor/glm/ext/matrix_float4x4_precision.hpp \
+  ../src/vendor/glm/detail/func_matrix.inl \
+  ../src/vendor/glm/geometric.hpp \
+  ../src/vendor/glm/detail/func_geometric.inl \
+  ../src/vendor/glm/exponential.hpp \
+  ../src/vendor/glm/detail/type_vec1.hpp \
+  ../src/vendor/glm/detail/type_vec1.inl \
+  ../src/vendor/glm/detail/func_exponential.inl \
+  ../src/vendor/glm/vector_relational.hpp \
+  ../src/vendor/glm/detail/setup.hpp \
+  ../src/vendor/glm/detail/func_vector_relational.inl \
+  ../src/vendor/glm/detail/_vectorize.hpp \
+  ../src/vendor/glm/common.hpp \
+  ../src/vendor/glm/detail/_fixes.hpp \
+  ../src/vendor/glm/detail/func_common.inl \
+  ../src/vendor/glm/detail/compute_common.hpp \
+  ../src/vendor/glm/detail/setup.hpp \
+  ../src/vendor/glm/ext/matrix_double2x2_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float2x2.hpp \
+  ../src/vendor/glm/ext/matrix_float2x2_precision.hpp \
+  ../src/vendor/glm/trigonometric.hpp \
+  ../src/vendor/glm/detail/func_trigonometric.inl \
+  ../src/vendor/glm/packing.hpp \
+  ../src/vendor/glm/detail/func_packing.inl \
+  ../src/vendor/glm/detail/type_half.hpp \
+  ../src/vendor/glm/detail/type_half.inl \
+  ../src/vendor/glm/integer.hpp \
+  ../src/vendor/glm/detail/func_integer.inl \
   /usr/include/c++/11/iostream \
   /usr/include/c++/11/ostream \
   /usr/include/c++/11/ios \
@@ -758,6 +1314,187 @@ CMakeFiles/hackathon-open-gl.dir/src/Shader.cpp.o: ../src/Shader.cpp \
   /usr/include/c++/11/bits/node_handle.h \
   /usr/include/c++/11/bits/unordered_map.h \
   /usr/include/c++/11/bits/erase_if.h \
+  ../src/vendor/glm/glm.hpp \
+  ../src/vendor/glm/detail/_fixes.hpp \
+  /usr/include/c++/11/cmath \
+  /usr/include/math.h \
+  /usr/include/bits/math-vector.h \
+  /usr/include/bits/libm-simd-decl-stubs.h \
+  /usr/include/bits/flt-eval-method.h \
+  /usr/include/bits/fp-logb.h \
+  /usr/include/bits/fp-fast.h \
+  /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls.h \
+  /usr/include/bits/mathcalls-narrow.h \
+  /usr/include/bits/iscanonical.h \
+  /usr/include/c++/11/bits/specfun.h \
+  /usr/include/c++/11/limits \
+  /usr/include/c++/11/tr1/gamma.tcc \
+  /usr/include/c++/11/tr1/special_function_util.h \
+  /usr/include/c++/11/tr1/bessel_function.tcc \
+  /usr/include/c++/11/tr1/beta_function.tcc \
+  /usr/include/c++/11/tr1/ell_integral.tcc \
+  /usr/include/c++/11/tr1/exp_integral.tcc \
+  /usr/include/c++/11/tr1/hypergeometric.tcc \
+  /usr/include/c++/11/tr1/legendre_function.tcc \
+  /usr/include/c++/11/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/11/tr1/poly_hermite.tcc \
+  /usr/include/c++/11/tr1/poly_laguerre.tcc \
+  /usr/include/c++/11/tr1/riemann_zeta.tcc \
+  ../src/vendor/glm/detail/setup.hpp \
+  /usr/include/c++/11/cassert \
+  /usr/include/assert.h \
+  /usr/include/c++/11/cstddef \
+  ../src/vendor/glm/simd/platform.h \
+  /usr/include/c++/11/climits \
+  /usr/lib/gcc/x86_64-redhat-linux/11/include/limits.h \
+  /usr/lib/gcc/x86_64-redhat-linux/11/include/syslimits.h \
+  /usr/include/limits.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/xopen_lim.h \
+  /usr/include/bits/uio_lim.h \
+  /usr/include/c++/11/cfloat \
+  /usr/lib/gcc/x86_64-redhat-linux/11/include/float.h \
+  ../src/vendor/glm/fwd.hpp \
+  ../src/vendor/glm/detail/qualifier.hpp \
+  ../src/vendor/glm/detail/setup.hpp \
+  ../src/vendor/glm/vec2.hpp \
+  ../src/vendor/glm/ext/vector_bool2.hpp \
+  ../src/vendor/glm/detail/type_vec2.hpp \
+  ../src/vendor/glm/detail/type_vec2.inl \
+  ../src/vendor/glm/detail/compute_vector_relational.hpp \
+  ../src/vendor/glm/detail/setup.hpp \
+  ../src/vendor/glm/ext/vector_bool2_precision.hpp \
+  ../src/vendor/glm/ext/vector_float2.hpp \
+  ../src/vendor/glm/ext/vector_float2_precision.hpp \
+  ../src/vendor/glm/ext/vector_double2.hpp \
+  ../src/vendor/glm/ext/vector_double2_precision.hpp \
+  ../src/vendor/glm/ext/vector_int2.hpp \
+  ../src/vendor/glm/ext/vector_int2_sized.hpp \
+  ../src/vendor/glm/ext/scalar_int_sized.hpp \
+  ../src/vendor/glm/detail/setup.hpp \
+  ../src/vendor/glm/ext/vector_uint2.hpp \
+  ../src/vendor/glm/ext/vector_uint2_sized.hpp \
+  ../src/vendor/glm/ext/scalar_uint_sized.hpp \
+  ../src/vendor/glm/vec3.hpp \
+  ../src/vendor/glm/ext/vector_bool3.hpp \
+  ../src/vendor/glm/detail/type_vec3.hpp \
+  ../src/vendor/glm/detail/type_vec3.inl \
+  ../src/vendor/glm/ext/vector_bool3_precision.hpp \
+  ../src/vendor/glm/ext/vector_float3.hpp \
+  ../src/vendor/glm/ext/vector_float3_precision.hpp \
+  ../src/vendor/glm/ext/vector_double3.hpp \
+  ../src/vendor/glm/ext/vector_double3_precision.hpp \
+  ../src/vendor/glm/ext/vector_int3.hpp \
+  ../src/vendor/glm/ext/vector_int3_sized.hpp \
+  ../src/vendor/glm/ext/vector_uint3.hpp \
+  ../src/vendor/glm/ext/vector_uint3_sized.hpp \
+  ../src/vendor/glm/vec4.hpp \
+  ../src/vendor/glm/ext/vector_bool4.hpp \
+  ../src/vendor/glm/detail/type_vec4.hpp \
+  ../src/vendor/glm/detail/type_vec4.inl \
+  ../src/vendor/glm/ext/vector_bool4_precision.hpp \
+  ../src/vendor/glm/ext/vector_float4.hpp \
+  ../src/vendor/glm/ext/vector_float4_precision.hpp \
+  ../src/vendor/glm/ext/vector_double4.hpp \
+  ../src/vendor/glm/ext/vector_double4_precision.hpp \
+  ../src/vendor/glm/detail/setup.hpp \
+  ../src/vendor/glm/ext/vector_int4.hpp \
+  ../src/vendor/glm/ext/vector_int4_sized.hpp \
+  ../src/vendor/glm/ext/vector_uint4.hpp \
+  ../src/vendor/glm/ext/vector_uint4_sized.hpp \
+  ../src/vendor/glm/mat2x2.hpp \
+  ../src/vendor/glm/ext/matrix_double2x2.hpp \
+  ../src/vendor/glm/detail/type_mat2x2.hpp \
+  ../src/vendor/glm/detail/type_mat2x2.inl \
+  ../src/vendor/glm/matrix.hpp \
+  ../src/vendor/glm/detail/setup.hpp \
+  ../src/vendor/glm/mat2x3.hpp \
+  ../src/vendor/glm/ext/matrix_double2x3.hpp \
+  ../src/vendor/glm/detail/type_mat2x3.hpp \
+  ../src/vendor/glm/detail/type_mat2x3.inl \
+  ../src/vendor/glm/ext/matrix_double2x3_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float2x3.hpp \
+  ../src/vendor/glm/ext/matrix_float2x3_precision.hpp \
+  ../src/vendor/glm/mat2x4.hpp \
+  ../src/vendor/glm/ext/matrix_double2x4.hpp \
+  ../src/vendor/glm/detail/type_mat2x4.hpp \
+  ../src/vendor/glm/detail/type_mat2x4.inl \
+  ../src/vendor/glm/ext/matrix_double2x4_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float2x4.hpp \
+  ../src/vendor/glm/ext/matrix_float2x4_precision.hpp \
+  ../src/vendor/glm/mat3x2.hpp \
+  ../src/vendor/glm/ext/matrix_double3x2.hpp \
+  ../src/vendor/glm/detail/type_mat3x2.hpp \
+  ../src/vendor/glm/detail/type_mat3x2.inl \
+  ../src/vendor/glm/ext/matrix_double3x2_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float3x2.hpp \
+  ../src/vendor/glm/ext/matrix_float3x2_precision.hpp \
+  ../src/vendor/glm/mat3x3.hpp \
+  ../src/vendor/glm/ext/matrix_double3x3.hpp \
+  ../src/vendor/glm/detail/type_mat3x3.hpp \
+  ../src/vendor/glm/detail/type_mat3x3.inl \
+  ../src/vendor/glm/ext/matrix_double3x3_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float3x3.hpp \
+  ../src/vendor/glm/ext/matrix_float3x3_precision.hpp \
+  ../src/vendor/glm/mat3x4.hpp \
+  ../src/vendor/glm/ext/matrix_double3x4.hpp \
+  ../src/vendor/glm/detail/type_mat3x4.hpp \
+  ../src/vendor/glm/detail/type_mat3x4.inl \
+  ../src/vendor/glm/ext/matrix_double3x4_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float3x4.hpp \
+  ../src/vendor/glm/ext/matrix_float3x4_precision.hpp \
+  ../src/vendor/glm/mat4x2.hpp \
+  ../src/vendor/glm/ext/matrix_double4x2.hpp \
+  ../src/vendor/glm/detail/type_mat4x2.hpp \
+  ../src/vendor/glm/detail/type_mat4x2.inl \
+  ../src/vendor/glm/ext/matrix_double4x2_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float4x2.hpp \
+  ../src/vendor/glm/ext/matrix_float4x2_precision.hpp \
+  ../src/vendor/glm/mat4x3.hpp \
+  ../src/vendor/glm/ext/matrix_double4x3.hpp \
+  ../src/vendor/glm/detail/type_mat4x3.hpp \
+  ../src/vendor/glm/detail/type_mat4x3.inl \
+  ../src/vendor/glm/ext/matrix_double4x3_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float4x3.hpp \
+  ../src/vendor/glm/ext/matrix_float4x3_precision.hpp \
+  ../src/vendor/glm/mat4x4.hpp \
+  ../src/vendor/glm/ext/matrix_double4x4.hpp \
+  ../src/vendor/glm/detail/type_mat4x4.hpp \
+  ../src/vendor/glm/detail/type_mat4x4.inl \
+  ../src/vendor/glm/ext/matrix_double4x4_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float4x4.hpp \
+  ../src/vendor/glm/ext/matrix_float4x4_precision.hpp \
+  ../src/vendor/glm/detail/func_matrix.inl \
+  ../src/vendor/glm/geometric.hpp \
+  ../src/vendor/glm/detail/func_geometric.inl \
+  ../src/vendor/glm/exponential.hpp \
+  ../src/vendor/glm/detail/type_vec1.hpp \
+  ../src/vendor/glm/detail/type_vec1.inl \
+  ../src/vendor/glm/detail/func_exponential.inl \
+  ../src/vendor/glm/vector_relational.hpp \
+  ../src/vendor/glm/detail/setup.hpp \
+  ../src/vendor/glm/detail/func_vector_relational.inl \
+  ../src/vendor/glm/detail/_vectorize.hpp \
+  ../src/vendor/glm/common.hpp \
+  ../src/vendor/glm/detail/_fixes.hpp \
+  ../src/vendor/glm/detail/func_common.inl \
+  ../src/vendor/glm/detail/compute_common.hpp \
+  ../src/vendor/glm/detail/setup.hpp \
+  ../src/vendor/glm/ext/matrix_double2x2_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float2x2.hpp \
+  ../src/vendor/glm/ext/matrix_float2x2_precision.hpp \
+  ../src/vendor/glm/trigonometric.hpp \
+  ../src/vendor/glm/detail/func_trigonometric.inl \
+  ../src/vendor/glm/packing.hpp \
+  ../src/vendor/glm/detail/func_packing.inl \
+  ../src/vendor/glm/detail/type_half.hpp \
+  ../src/vendor/glm/detail/type_half.inl \
+  ../src/vendor/glm/integer.hpp \
+  ../src/vendor/glm/detail/func_integer.inl \
   ../src/Renderer.h \
   /usr/include/GL/glew.h \
   /usr/include/GL/glu.h \
@@ -975,20 +1712,8 @@ CMakeFiles/hackathon-open-gl.dir/src/Texture.cpp.o: ../src/Texture.cpp \
   /usr/include/c++/11/bits/node_handle.h \
   /usr/include/c++/11/bits/unordered_map.h \
   /usr/include/c++/11/bits/erase_if.h \
-  ../src/vendor/stb_image/stb_image.h \
-  /usr/include/c++/11/stdlib.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/lib/gcc/x86_64-redhat-linux/11/include/limits.h \
-  /usr/lib/gcc/x86_64-redhat-linux/11/include/syslimits.h \
-  /usr/include/limits.h \
-  /usr/include/bits/posix1_lim.h \
-  /usr/include/bits/local_lim.h \
-  /usr/include/linux/limits.h \
-  /usr/include/bits/posix2_lim.h \
-  /usr/include/bits/xopen_lim.h \
-  /usr/include/bits/uio_lim.h \
-  /usr/include/c++/11/math.h \
+  ../src/vendor/glm/glm.hpp \
+  ../src/vendor/glm/detail/_fixes.hpp \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/bits/math-vector.h \
@@ -1014,7 +1739,165 @@ CMakeFiles/hackathon-open-gl.dir/src/Texture.cpp.o: ../src/Texture.cpp \
   /usr/include/c++/11/tr1/poly_hermite.tcc \
   /usr/include/c++/11/tr1/poly_laguerre.tcc \
   /usr/include/c++/11/tr1/riemann_zeta.tcc \
+  ../src/vendor/glm/detail/setup.hpp \
+  /usr/include/c++/11/cassert \
   /usr/include/assert.h \
+  /usr/include/c++/11/cstddef \
+  ../src/vendor/glm/simd/platform.h \
+  /usr/include/c++/11/climits \
+  /usr/lib/gcc/x86_64-redhat-linux/11/include/limits.h \
+  /usr/lib/gcc/x86_64-redhat-linux/11/include/syslimits.h \
+  /usr/include/limits.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/xopen_lim.h \
+  /usr/include/bits/uio_lim.h \
+  /usr/include/c++/11/cfloat \
+  /usr/lib/gcc/x86_64-redhat-linux/11/include/float.h \
+  ../src/vendor/glm/fwd.hpp \
+  ../src/vendor/glm/detail/qualifier.hpp \
+  ../src/vendor/glm/detail/setup.hpp \
+  ../src/vendor/glm/vec2.hpp \
+  ../src/vendor/glm/ext/vector_bool2.hpp \
+  ../src/vendor/glm/detail/type_vec2.hpp \
+  ../src/vendor/glm/detail/type_vec2.inl \
+  ../src/vendor/glm/detail/compute_vector_relational.hpp \
+  ../src/vendor/glm/detail/setup.hpp \
+  ../src/vendor/glm/ext/vector_bool2_precision.hpp \
+  ../src/vendor/glm/ext/vector_float2.hpp \
+  ../src/vendor/glm/ext/vector_float2_precision.hpp \
+  ../src/vendor/glm/ext/vector_double2.hpp \
+  ../src/vendor/glm/ext/vector_double2_precision.hpp \
+  ../src/vendor/glm/ext/vector_int2.hpp \
+  ../src/vendor/glm/ext/vector_int2_sized.hpp \
+  ../src/vendor/glm/ext/scalar_int_sized.hpp \
+  ../src/vendor/glm/detail/setup.hpp \
+  ../src/vendor/glm/ext/vector_uint2.hpp \
+  ../src/vendor/glm/ext/vector_uint2_sized.hpp \
+  ../src/vendor/glm/ext/scalar_uint_sized.hpp \
+  ../src/vendor/glm/vec3.hpp \
+  ../src/vendor/glm/ext/vector_bool3.hpp \
+  ../src/vendor/glm/detail/type_vec3.hpp \
+  ../src/vendor/glm/detail/type_vec3.inl \
+  ../src/vendor/glm/ext/vector_bool3_precision.hpp \
+  ../src/vendor/glm/ext/vector_float3.hpp \
+  ../src/vendor/glm/ext/vector_float3_precision.hpp \
+  ../src/vendor/glm/ext/vector_double3.hpp \
+  ../src/vendor/glm/ext/vector_double3_precision.hpp \
+  ../src/vendor/glm/ext/vector_int3.hpp \
+  ../src/vendor/glm/ext/vector_int3_sized.hpp \
+  ../src/vendor/glm/ext/vector_uint3.hpp \
+  ../src/vendor/glm/ext/vector_uint3_sized.hpp \
+  ../src/vendor/glm/vec4.hpp \
+  ../src/vendor/glm/ext/vector_bool4.hpp \
+  ../src/vendor/glm/detail/type_vec4.hpp \
+  ../src/vendor/glm/detail/type_vec4.inl \
+  ../src/vendor/glm/ext/vector_bool4_precision.hpp \
+  ../src/vendor/glm/ext/vector_float4.hpp \
+  ../src/vendor/glm/ext/vector_float4_precision.hpp \
+  ../src/vendor/glm/ext/vector_double4.hpp \
+  ../src/vendor/glm/ext/vector_double4_precision.hpp \
+  ../src/vendor/glm/detail/setup.hpp \
+  ../src/vendor/glm/ext/vector_int4.hpp \
+  ../src/vendor/glm/ext/vector_int4_sized.hpp \
+  ../src/vendor/glm/ext/vector_uint4.hpp \
+  ../src/vendor/glm/ext/vector_uint4_sized.hpp \
+  ../src/vendor/glm/mat2x2.hpp \
+  ../src/vendor/glm/ext/matrix_double2x2.hpp \
+  ../src/vendor/glm/detail/type_mat2x2.hpp \
+  ../src/vendor/glm/detail/type_mat2x2.inl \
+  ../src/vendor/glm/matrix.hpp \
+  ../src/vendor/glm/detail/setup.hpp \
+  ../src/vendor/glm/mat2x3.hpp \
+  ../src/vendor/glm/ext/matrix_double2x3.hpp \
+  ../src/vendor/glm/detail/type_mat2x3.hpp \
+  ../src/vendor/glm/detail/type_mat2x3.inl \
+  ../src/vendor/glm/ext/matrix_double2x3_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float2x3.hpp \
+  ../src/vendor/glm/ext/matrix_float2x3_precision.hpp \
+  ../src/vendor/glm/mat2x4.hpp \
+  ../src/vendor/glm/ext/matrix_double2x4.hpp \
+  ../src/vendor/glm/detail/type_mat2x4.hpp \
+  ../src/vendor/glm/detail/type_mat2x4.inl \
+  ../src/vendor/glm/ext/matrix_double2x4_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float2x4.hpp \
+  ../src/vendor/glm/ext/matrix_float2x4_precision.hpp \
+  ../src/vendor/glm/mat3x2.hpp \
+  ../src/vendor/glm/ext/matrix_double3x2.hpp \
+  ../src/vendor/glm/detail/type_mat3x2.hpp \
+  ../src/vendor/glm/detail/type_mat3x2.inl \
+  ../src/vendor/glm/ext/matrix_double3x2_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float3x2.hpp \
+  ../src/vendor/glm/ext/matrix_float3x2_precision.hpp \
+  ../src/vendor/glm/mat3x3.hpp \
+  ../src/vendor/glm/ext/matrix_double3x3.hpp \
+  ../src/vendor/glm/detail/type_mat3x3.hpp \
+  ../src/vendor/glm/detail/type_mat3x3.inl \
+  ../src/vendor/glm/ext/matrix_double3x3_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float3x3.hpp \
+  ../src/vendor/glm/ext/matrix_float3x3_precision.hpp \
+  ../src/vendor/glm/mat3x4.hpp \
+  ../src/vendor/glm/ext/matrix_double3x4.hpp \
+  ../src/vendor/glm/detail/type_mat3x4.hpp \
+  ../src/vendor/glm/detail/type_mat3x4.inl \
+  ../src/vendor/glm/ext/matrix_double3x4_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float3x4.hpp \
+  ../src/vendor/glm/ext/matrix_float3x4_precision.hpp \
+  ../src/vendor/glm/mat4x2.hpp \
+  ../src/vendor/glm/ext/matrix_double4x2.hpp \
+  ../src/vendor/glm/detail/type_mat4x2.hpp \
+  ../src/vendor/glm/detail/type_mat4x2.inl \
+  ../src/vendor/glm/ext/matrix_double4x2_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float4x2.hpp \
+  ../src/vendor/glm/ext/matrix_float4x2_precision.hpp \
+  ../src/vendor/glm/mat4x3.hpp \
+  ../src/vendor/glm/ext/matrix_double4x3.hpp \
+  ../src/vendor/glm/detail/type_mat4x3.hpp \
+  ../src/vendor/glm/detail/type_mat4x3.inl \
+  ../src/vendor/glm/ext/matrix_double4x3_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float4x3.hpp \
+  ../src/vendor/glm/ext/matrix_float4x3_precision.hpp \
+  ../src/vendor/glm/mat4x4.hpp \
+  ../src/vendor/glm/ext/matrix_double4x4.hpp \
+  ../src/vendor/glm/detail/type_mat4x4.hpp \
+  ../src/vendor/glm/detail/type_mat4x4.inl \
+  ../src/vendor/glm/ext/matrix_double4x4_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float4x4.hpp \
+  ../src/vendor/glm/ext/matrix_float4x4_precision.hpp \
+  ../src/vendor/glm/detail/func_matrix.inl \
+  ../src/vendor/glm/geometric.hpp \
+  ../src/vendor/glm/detail/func_geometric.inl \
+  ../src/vendor/glm/exponential.hpp \
+  ../src/vendor/glm/detail/type_vec1.hpp \
+  ../src/vendor/glm/detail/type_vec1.inl \
+  ../src/vendor/glm/detail/func_exponential.inl \
+  ../src/vendor/glm/vector_relational.hpp \
+  ../src/vendor/glm/detail/setup.hpp \
+  ../src/vendor/glm/detail/func_vector_relational.inl \
+  ../src/vendor/glm/detail/_vectorize.hpp \
+  ../src/vendor/glm/common.hpp \
+  ../src/vendor/glm/detail/_fixes.hpp \
+  ../src/vendor/glm/detail/func_common.inl \
+  ../src/vendor/glm/detail/compute_common.hpp \
+  ../src/vendor/glm/detail/setup.hpp \
+  ../src/vendor/glm/ext/matrix_double2x2_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float2x2.hpp \
+  ../src/vendor/glm/ext/matrix_float2x2_precision.hpp \
+  ../src/vendor/glm/trigonometric.hpp \
+  ../src/vendor/glm/detail/func_trigonometric.inl \
+  ../src/vendor/glm/packing.hpp \
+  ../src/vendor/glm/detail/func_packing.inl \
+  ../src/vendor/glm/detail/type_half.hpp \
+  ../src/vendor/glm/detail/type_half.inl \
+  ../src/vendor/glm/integer.hpp \
+  ../src/vendor/glm/detail/func_integer.inl \
+  ../src/vendor/stb_image/stb_image.h \
+  /usr/include/c++/11/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/c++/11/math.h \
   /usr/lib/gcc/x86_64-redhat-linux/11/include/emmintrin.h \
   /usr/lib/gcc/x86_64-redhat-linux/11/include/xmmintrin.h \
   /usr/lib/gcc/x86_64-redhat-linux/11/include/mmintrin.h \
@@ -1192,6 +2075,187 @@ CMakeFiles/hackathon-open-gl.dir/src/VertexArray.cpp.o: ../src/VertexArray.cpp \
   /usr/include/c++/11/bits/node_handle.h \
   /usr/include/c++/11/bits/unordered_map.h \
   /usr/include/c++/11/bits/erase_if.h \
+  ../src/vendor/glm/glm.hpp \
+  ../src/vendor/glm/detail/_fixes.hpp \
+  /usr/include/c++/11/cmath \
+  /usr/include/math.h \
+  /usr/include/bits/math-vector.h \
+  /usr/include/bits/libm-simd-decl-stubs.h \
+  /usr/include/bits/flt-eval-method.h \
+  /usr/include/bits/fp-logb.h \
+  /usr/include/bits/fp-fast.h \
+  /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls.h \
+  /usr/include/bits/mathcalls-narrow.h \
+  /usr/include/bits/iscanonical.h \
+  /usr/include/c++/11/bits/specfun.h \
+  /usr/include/c++/11/limits \
+  /usr/include/c++/11/tr1/gamma.tcc \
+  /usr/include/c++/11/tr1/special_function_util.h \
+  /usr/include/c++/11/tr1/bessel_function.tcc \
+  /usr/include/c++/11/tr1/beta_function.tcc \
+  /usr/include/c++/11/tr1/ell_integral.tcc \
+  /usr/include/c++/11/tr1/exp_integral.tcc \
+  /usr/include/c++/11/tr1/hypergeometric.tcc \
+  /usr/include/c++/11/tr1/legendre_function.tcc \
+  /usr/include/c++/11/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/11/tr1/poly_hermite.tcc \
+  /usr/include/c++/11/tr1/poly_laguerre.tcc \
+  /usr/include/c++/11/tr1/riemann_zeta.tcc \
+  ../src/vendor/glm/detail/setup.hpp \
+  /usr/include/c++/11/cassert \
+  /usr/include/assert.h \
+  /usr/include/c++/11/cstddef \
+  ../src/vendor/glm/simd/platform.h \
+  /usr/include/c++/11/climits \
+  /usr/lib/gcc/x86_64-redhat-linux/11/include/limits.h \
+  /usr/lib/gcc/x86_64-redhat-linux/11/include/syslimits.h \
+  /usr/include/limits.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/xopen_lim.h \
+  /usr/include/bits/uio_lim.h \
+  /usr/include/c++/11/cfloat \
+  /usr/lib/gcc/x86_64-redhat-linux/11/include/float.h \
+  ../src/vendor/glm/fwd.hpp \
+  ../src/vendor/glm/detail/qualifier.hpp \
+  ../src/vendor/glm/detail/setup.hpp \
+  ../src/vendor/glm/vec2.hpp \
+  ../src/vendor/glm/ext/vector_bool2.hpp \
+  ../src/vendor/glm/detail/type_vec2.hpp \
+  ../src/vendor/glm/detail/type_vec2.inl \
+  ../src/vendor/glm/detail/compute_vector_relational.hpp \
+  ../src/vendor/glm/detail/setup.hpp \
+  ../src/vendor/glm/ext/vector_bool2_precision.hpp \
+  ../src/vendor/glm/ext/vector_float2.hpp \
+  ../src/vendor/glm/ext/vector_float2_precision.hpp \
+  ../src/vendor/glm/ext/vector_double2.hpp \
+  ../src/vendor/glm/ext/vector_double2_precision.hpp \
+  ../src/vendor/glm/ext/vector_int2.hpp \
+  ../src/vendor/glm/ext/vector_int2_sized.hpp \
+  ../src/vendor/glm/ext/scalar_int_sized.hpp \
+  ../src/vendor/glm/detail/setup.hpp \
+  ../src/vendor/glm/ext/vector_uint2.hpp \
+  ../src/vendor/glm/ext/vector_uint2_sized.hpp \
+  ../src/vendor/glm/ext/scalar_uint_sized.hpp \
+  ../src/vendor/glm/vec3.hpp \
+  ../src/vendor/glm/ext/vector_bool3.hpp \
+  ../src/vendor/glm/detail/type_vec3.hpp \
+  ../src/vendor/glm/detail/type_vec3.inl \
+  ../src/vendor/glm/ext/vector_bool3_precision.hpp \
+  ../src/vendor/glm/ext/vector_float3.hpp \
+  ../src/vendor/glm/ext/vector_float3_precision.hpp \
+  ../src/vendor/glm/ext/vector_double3.hpp \
+  ../src/vendor/glm/ext/vector_double3_precision.hpp \
+  ../src/vendor/glm/ext/vector_int3.hpp \
+  ../src/vendor/glm/ext/vector_int3_sized.hpp \
+  ../src/vendor/glm/ext/vector_uint3.hpp \
+  ../src/vendor/glm/ext/vector_uint3_sized.hpp \
+  ../src/vendor/glm/vec4.hpp \
+  ../src/vendor/glm/ext/vector_bool4.hpp \
+  ../src/vendor/glm/detail/type_vec4.hpp \
+  ../src/vendor/glm/detail/type_vec4.inl \
+  ../src/vendor/glm/ext/vector_bool4_precision.hpp \
+  ../src/vendor/glm/ext/vector_float4.hpp \
+  ../src/vendor/glm/ext/vector_float4_precision.hpp \
+  ../src/vendor/glm/ext/vector_double4.hpp \
+  ../src/vendor/glm/ext/vector_double4_precision.hpp \
+  ../src/vendor/glm/detail/setup.hpp \
+  ../src/vendor/glm/ext/vector_int4.hpp \
+  ../src/vendor/glm/ext/vector_int4_sized.hpp \
+  ../src/vendor/glm/ext/vector_uint4.hpp \
+  ../src/vendor/glm/ext/vector_uint4_sized.hpp \
+  ../src/vendor/glm/mat2x2.hpp \
+  ../src/vendor/glm/ext/matrix_double2x2.hpp \
+  ../src/vendor/glm/detail/type_mat2x2.hpp \
+  ../src/vendor/glm/detail/type_mat2x2.inl \
+  ../src/vendor/glm/matrix.hpp \
+  ../src/vendor/glm/detail/setup.hpp \
+  ../src/vendor/glm/mat2x3.hpp \
+  ../src/vendor/glm/ext/matrix_double2x3.hpp \
+  ../src/vendor/glm/detail/type_mat2x3.hpp \
+  ../src/vendor/glm/detail/type_mat2x3.inl \
+  ../src/vendor/glm/ext/matrix_double2x3_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float2x3.hpp \
+  ../src/vendor/glm/ext/matrix_float2x3_precision.hpp \
+  ../src/vendor/glm/mat2x4.hpp \
+  ../src/vendor/glm/ext/matrix_double2x4.hpp \
+  ../src/vendor/glm/detail/type_mat2x4.hpp \
+  ../src/vendor/glm/detail/type_mat2x4.inl \
+  ../src/vendor/glm/ext/matrix_double2x4_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float2x4.hpp \
+  ../src/vendor/glm/ext/matrix_float2x4_precision.hpp \
+  ../src/vendor/glm/mat3x2.hpp \
+  ../src/vendor/glm/ext/matrix_double3x2.hpp \
+  ../src/vendor/glm/detail/type_mat3x2.hpp \
+  ../src/vendor/glm/detail/type_mat3x2.inl \
+  ../src/vendor/glm/ext/matrix_double3x2_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float3x2.hpp \
+  ../src/vendor/glm/ext/matrix_float3x2_precision.hpp \
+  ../src/vendor/glm/mat3x3.hpp \
+  ../src/vendor/glm/ext/matrix_double3x3.hpp \
+  ../src/vendor/glm/detail/type_mat3x3.hpp \
+  ../src/vendor/glm/detail/type_mat3x3.inl \
+  ../src/vendor/glm/ext/matrix_double3x3_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float3x3.hpp \
+  ../src/vendor/glm/ext/matrix_float3x3_precision.hpp \
+  ../src/vendor/glm/mat3x4.hpp \
+  ../src/vendor/glm/ext/matrix_double3x4.hpp \
+  ../src/vendor/glm/detail/type_mat3x4.hpp \
+  ../src/vendor/glm/detail/type_mat3x4.inl \
+  ../src/vendor/glm/ext/matrix_double3x4_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float3x4.hpp \
+  ../src/vendor/glm/ext/matrix_float3x4_precision.hpp \
+  ../src/vendor/glm/mat4x2.hpp \
+  ../src/vendor/glm/ext/matrix_double4x2.hpp \
+  ../src/vendor/glm/detail/type_mat4x2.hpp \
+  ../src/vendor/glm/detail/type_mat4x2.inl \
+  ../src/vendor/glm/ext/matrix_double4x2_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float4x2.hpp \
+  ../src/vendor/glm/ext/matrix_float4x2_precision.hpp \
+  ../src/vendor/glm/mat4x3.hpp \
+  ../src/vendor/glm/ext/matrix_double4x3.hpp \
+  ../src/vendor/glm/detail/type_mat4x3.hpp \
+  ../src/vendor/glm/detail/type_mat4x3.inl \
+  ../src/vendor/glm/ext/matrix_double4x3_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float4x3.hpp \
+  ../src/vendor/glm/ext/matrix_float4x3_precision.hpp \
+  ../src/vendor/glm/mat4x4.hpp \
+  ../src/vendor/glm/ext/matrix_double4x4.hpp \
+  ../src/vendor/glm/detail/type_mat4x4.hpp \
+  ../src/vendor/glm/detail/type_mat4x4.inl \
+  ../src/vendor/glm/ext/matrix_double4x4_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float4x4.hpp \
+  ../src/vendor/glm/ext/matrix_float4x4_precision.hpp \
+  ../src/vendor/glm/detail/func_matrix.inl \
+  ../src/vendor/glm/geometric.hpp \
+  ../src/vendor/glm/detail/func_geometric.inl \
+  ../src/vendor/glm/exponential.hpp \
+  ../src/vendor/glm/detail/type_vec1.hpp \
+  ../src/vendor/glm/detail/type_vec1.inl \
+  ../src/vendor/glm/detail/func_exponential.inl \
+  ../src/vendor/glm/vector_relational.hpp \
+  ../src/vendor/glm/detail/setup.hpp \
+  ../src/vendor/glm/detail/func_vector_relational.inl \
+  ../src/vendor/glm/detail/_vectorize.hpp \
+  ../src/vendor/glm/common.hpp \
+  ../src/vendor/glm/detail/_fixes.hpp \
+  ../src/vendor/glm/detail/func_common.inl \
+  ../src/vendor/glm/detail/compute_common.hpp \
+  ../src/vendor/glm/detail/setup.hpp \
+  ../src/vendor/glm/ext/matrix_double2x2_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float2x2.hpp \
+  ../src/vendor/glm/ext/matrix_float2x2_precision.hpp \
+  ../src/vendor/glm/trigonometric.hpp \
+  ../src/vendor/glm/detail/func_trigonometric.inl \
+  ../src/vendor/glm/packing.hpp \
+  ../src/vendor/glm/detail/func_packing.inl \
+  ../src/vendor/glm/detail/type_half.hpp \
+  ../src/vendor/glm/detail/type_half.inl \
+  ../src/vendor/glm/integer.hpp \
+  ../src/vendor/glm/detail/func_integer.inl \
   ../src/VertexBufferLayout.h \
   /usr/include/c++/11/vector \
   /usr/include/c++/11/bits/stl_uninitialized.h \
@@ -1370,20 +2434,407 @@ CMakeFiles/hackathon-open-gl.dir/src/VertexBuffer.cpp.o: ../src/VertexBuffer.cpp
   /usr/include/c++/11/bits/enable_special_members.h \
   /usr/include/c++/11/bits/node_handle.h \
   /usr/include/c++/11/bits/unordered_map.h \
-  /usr/include/c++/11/bits/erase_if.h
+  /usr/include/c++/11/bits/erase_if.h \
+  ../src/vendor/glm/glm.hpp \
+  ../src/vendor/glm/detail/_fixes.hpp \
+  /usr/include/c++/11/cmath \
+  /usr/include/math.h \
+  /usr/include/bits/math-vector.h \
+  /usr/include/bits/libm-simd-decl-stubs.h \
+  /usr/include/bits/flt-eval-method.h \
+  /usr/include/bits/fp-logb.h \
+  /usr/include/bits/fp-fast.h \
+  /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls.h \
+  /usr/include/bits/mathcalls-narrow.h \
+  /usr/include/bits/iscanonical.h \
+  /usr/include/c++/11/bits/specfun.h \
+  /usr/include/c++/11/limits \
+  /usr/include/c++/11/tr1/gamma.tcc \
+  /usr/include/c++/11/tr1/special_function_util.h \
+  /usr/include/c++/11/tr1/bessel_function.tcc \
+  /usr/include/c++/11/tr1/beta_function.tcc \
+  /usr/include/c++/11/tr1/ell_integral.tcc \
+  /usr/include/c++/11/tr1/exp_integral.tcc \
+  /usr/include/c++/11/tr1/hypergeometric.tcc \
+  /usr/include/c++/11/tr1/legendre_function.tcc \
+  /usr/include/c++/11/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/11/tr1/poly_hermite.tcc \
+  /usr/include/c++/11/tr1/poly_laguerre.tcc \
+  /usr/include/c++/11/tr1/riemann_zeta.tcc \
+  ../src/vendor/glm/detail/setup.hpp \
+  /usr/include/c++/11/cassert \
+  /usr/include/assert.h \
+  /usr/include/c++/11/cstddef \
+  ../src/vendor/glm/simd/platform.h \
+  /usr/include/c++/11/climits \
+  /usr/lib/gcc/x86_64-redhat-linux/11/include/limits.h \
+  /usr/lib/gcc/x86_64-redhat-linux/11/include/syslimits.h \
+  /usr/include/limits.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/xopen_lim.h \
+  /usr/include/bits/uio_lim.h \
+  /usr/include/c++/11/cfloat \
+  /usr/lib/gcc/x86_64-redhat-linux/11/include/float.h \
+  ../src/vendor/glm/fwd.hpp \
+  ../src/vendor/glm/detail/qualifier.hpp \
+  ../src/vendor/glm/detail/setup.hpp \
+  ../src/vendor/glm/vec2.hpp \
+  ../src/vendor/glm/ext/vector_bool2.hpp \
+  ../src/vendor/glm/detail/type_vec2.hpp \
+  ../src/vendor/glm/detail/type_vec2.inl \
+  ../src/vendor/glm/detail/compute_vector_relational.hpp \
+  ../src/vendor/glm/detail/setup.hpp \
+  ../src/vendor/glm/ext/vector_bool2_precision.hpp \
+  ../src/vendor/glm/ext/vector_float2.hpp \
+  ../src/vendor/glm/ext/vector_float2_precision.hpp \
+  ../src/vendor/glm/ext/vector_double2.hpp \
+  ../src/vendor/glm/ext/vector_double2_precision.hpp \
+  ../src/vendor/glm/ext/vector_int2.hpp \
+  ../src/vendor/glm/ext/vector_int2_sized.hpp \
+  ../src/vendor/glm/ext/scalar_int_sized.hpp \
+  ../src/vendor/glm/detail/setup.hpp \
+  ../src/vendor/glm/ext/vector_uint2.hpp \
+  ../src/vendor/glm/ext/vector_uint2_sized.hpp \
+  ../src/vendor/glm/ext/scalar_uint_sized.hpp \
+  ../src/vendor/glm/vec3.hpp \
+  ../src/vendor/glm/ext/vector_bool3.hpp \
+  ../src/vendor/glm/detail/type_vec3.hpp \
+  ../src/vendor/glm/detail/type_vec3.inl \
+  ../src/vendor/glm/ext/vector_bool3_precision.hpp \
+  ../src/vendor/glm/ext/vector_float3.hpp \
+  ../src/vendor/glm/ext/vector_float3_precision.hpp \
+  ../src/vendor/glm/ext/vector_double3.hpp \
+  ../src/vendor/glm/ext/vector_double3_precision.hpp \
+  ../src/vendor/glm/ext/vector_int3.hpp \
+  ../src/vendor/glm/ext/vector_int3_sized.hpp \
+  ../src/vendor/glm/ext/vector_uint3.hpp \
+  ../src/vendor/glm/ext/vector_uint3_sized.hpp \
+  ../src/vendor/glm/vec4.hpp \
+  ../src/vendor/glm/ext/vector_bool4.hpp \
+  ../src/vendor/glm/detail/type_vec4.hpp \
+  ../src/vendor/glm/detail/type_vec4.inl \
+  ../src/vendor/glm/ext/vector_bool4_precision.hpp \
+  ../src/vendor/glm/ext/vector_float4.hpp \
+  ../src/vendor/glm/ext/vector_float4_precision.hpp \
+  ../src/vendor/glm/ext/vector_double4.hpp \
+  ../src/vendor/glm/ext/vector_double4_precision.hpp \
+  ../src/vendor/glm/detail/setup.hpp \
+  ../src/vendor/glm/ext/vector_int4.hpp \
+  ../src/vendor/glm/ext/vector_int4_sized.hpp \
+  ../src/vendor/glm/ext/vector_uint4.hpp \
+  ../src/vendor/glm/ext/vector_uint4_sized.hpp \
+  ../src/vendor/glm/mat2x2.hpp \
+  ../src/vendor/glm/ext/matrix_double2x2.hpp \
+  ../src/vendor/glm/detail/type_mat2x2.hpp \
+  ../src/vendor/glm/detail/type_mat2x2.inl \
+  ../src/vendor/glm/matrix.hpp \
+  ../src/vendor/glm/detail/setup.hpp \
+  ../src/vendor/glm/mat2x3.hpp \
+  ../src/vendor/glm/ext/matrix_double2x3.hpp \
+  ../src/vendor/glm/detail/type_mat2x3.hpp \
+  ../src/vendor/glm/detail/type_mat2x3.inl \
+  ../src/vendor/glm/ext/matrix_double2x3_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float2x3.hpp \
+  ../src/vendor/glm/ext/matrix_float2x3_precision.hpp \
+  ../src/vendor/glm/mat2x4.hpp \
+  ../src/vendor/glm/ext/matrix_double2x4.hpp \
+  ../src/vendor/glm/detail/type_mat2x4.hpp \
+  ../src/vendor/glm/detail/type_mat2x4.inl \
+  ../src/vendor/glm/ext/matrix_double2x4_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float2x4.hpp \
+  ../src/vendor/glm/ext/matrix_float2x4_precision.hpp \
+  ../src/vendor/glm/mat3x2.hpp \
+  ../src/vendor/glm/ext/matrix_double3x2.hpp \
+  ../src/vendor/glm/detail/type_mat3x2.hpp \
+  ../src/vendor/glm/detail/type_mat3x2.inl \
+  ../src/vendor/glm/ext/matrix_double3x2_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float3x2.hpp \
+  ../src/vendor/glm/ext/matrix_float3x2_precision.hpp \
+  ../src/vendor/glm/mat3x3.hpp \
+  ../src/vendor/glm/ext/matrix_double3x3.hpp \
+  ../src/vendor/glm/detail/type_mat3x3.hpp \
+  ../src/vendor/glm/detail/type_mat3x3.inl \
+  ../src/vendor/glm/ext/matrix_double3x3_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float3x3.hpp \
+  ../src/vendor/glm/ext/matrix_float3x3_precision.hpp \
+  ../src/vendor/glm/mat3x4.hpp \
+  ../src/vendor/glm/ext/matrix_double3x4.hpp \
+  ../src/vendor/glm/detail/type_mat3x4.hpp \
+  ../src/vendor/glm/detail/type_mat3x4.inl \
+  ../src/vendor/glm/ext/matrix_double3x4_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float3x4.hpp \
+  ../src/vendor/glm/ext/matrix_float3x4_precision.hpp \
+  ../src/vendor/glm/mat4x2.hpp \
+  ../src/vendor/glm/ext/matrix_double4x2.hpp \
+  ../src/vendor/glm/detail/type_mat4x2.hpp \
+  ../src/vendor/glm/detail/type_mat4x2.inl \
+  ../src/vendor/glm/ext/matrix_double4x2_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float4x2.hpp \
+  ../src/vendor/glm/ext/matrix_float4x2_precision.hpp \
+  ../src/vendor/glm/mat4x3.hpp \
+  ../src/vendor/glm/ext/matrix_double4x3.hpp \
+  ../src/vendor/glm/detail/type_mat4x3.hpp \
+  ../src/vendor/glm/detail/type_mat4x3.inl \
+  ../src/vendor/glm/ext/matrix_double4x3_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float4x3.hpp \
+  ../src/vendor/glm/ext/matrix_float4x3_precision.hpp \
+  ../src/vendor/glm/mat4x4.hpp \
+  ../src/vendor/glm/ext/matrix_double4x4.hpp \
+  ../src/vendor/glm/detail/type_mat4x4.hpp \
+  ../src/vendor/glm/detail/type_mat4x4.inl \
+  ../src/vendor/glm/ext/matrix_double4x4_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float4x4.hpp \
+  ../src/vendor/glm/ext/matrix_float4x4_precision.hpp \
+  ../src/vendor/glm/detail/func_matrix.inl \
+  ../src/vendor/glm/geometric.hpp \
+  ../src/vendor/glm/detail/func_geometric.inl \
+  ../src/vendor/glm/exponential.hpp \
+  ../src/vendor/glm/detail/type_vec1.hpp \
+  ../src/vendor/glm/detail/type_vec1.inl \
+  ../src/vendor/glm/detail/func_exponential.inl \
+  ../src/vendor/glm/vector_relational.hpp \
+  ../src/vendor/glm/detail/setup.hpp \
+  ../src/vendor/glm/detail/func_vector_relational.inl \
+  ../src/vendor/glm/detail/_vectorize.hpp \
+  ../src/vendor/glm/common.hpp \
+  ../src/vendor/glm/detail/_fixes.hpp \
+  ../src/vendor/glm/detail/func_common.inl \
+  ../src/vendor/glm/detail/compute_common.hpp \
+  ../src/vendor/glm/detail/setup.hpp \
+  ../src/vendor/glm/ext/matrix_double2x2_precision.hpp \
+  ../src/vendor/glm/ext/matrix_float2x2.hpp \
+  ../src/vendor/glm/ext/matrix_float2x2_precision.hpp \
+  ../src/vendor/glm/trigonometric.hpp \
+  ../src/vendor/glm/detail/func_trigonometric.inl \
+  ../src/vendor/glm/packing.hpp \
+  ../src/vendor/glm/detail/func_packing.inl \
+  ../src/vendor/glm/detail/type_half.hpp \
+  ../src/vendor/glm/detail/type_half.inl \
+  ../src/vendor/glm/integer.hpp \
+  ../src/vendor/glm/detail/func_integer.inl
 
-
-../src/VertexBuffer.cpp:
 
 ../src/VertexArray.cpp:
 
 /usr/lib/gcc/x86_64-redhat-linux/11/include/mmintrin.h:
 
-/usr/include/assert.h:
+/usr/include/c++/11/math.h:
 
-/usr/include/c++/11/tr1/riemann_zeta.tcc:
+/usr/include/strings.h:
 
-/usr/include/c++/11/tr1/poly_laguerre.tcc:
+../src/vendor/stb_image/stb_image.h:
+
+../src/Shader.cpp:
+
+../src/IndexBuffer.cpp:
+
+../src/vendor/glm/gtc/matrix_transform.inl:
+
+../src/VertexBuffer.cpp:
+
+../src/vendor/glm/ext/matrix_transform.hpp:
+
+../src/vendor/glm/ext/matrix_clip_space.hpp:
+
+../src/vendor/glm/ext/matrix_projection.inl:
+
+../src/vendor/glm/gtc/constants.inl:
+
+../src/vendor/glm/gtc/matrix_transform.hpp:
+
+../src/Texture.h:
+
+/usr/include/c++/11/bits/stl_bvector.h:
+
+/usr/include/c++/11/bits/stl_uninitialized.h:
+
+/usr/include/c++/11/vector:
+
+../src/VertexBufferLayout.h:
+
+../src/vendor/glm/detail/func_integer.inl:
+
+/usr/include/c++/11/stdlib.h:
+
+../src/vendor/glm/gtc/constants.hpp:
+
+../src/vendor/glm/detail/type_half.hpp:
+
+../src/vendor/glm/packing.hpp:
+
+../src/vendor/glm/detail/func_trigonometric.inl:
+
+../src/vendor/glm/trigonometric.hpp:
+
+../src/vendor/glm/ext/matrix_float2x2.hpp:
+
+../src/vendor/glm/ext/matrix_double2x2_precision.hpp:
+
+../src/vendor/glm/detail/func_common.inl:
+
+../src/vendor/glm/common.hpp:
+
+../src/vendor/glm/detail/_vectorize.hpp:
+
+../src/vendor/glm/vector_relational.hpp:
+
+../src/vendor/glm/detail/func_exponential.inl:
+
+../src/vendor/glm/detail/type_vec1.inl:
+
+../src/vendor/glm/detail/func_geometric.inl:
+
+../src/vendor/glm/ext/matrix_float4x4_precision.hpp:
+
+../src/vendor/glm/ext/matrix_float4x4.hpp:
+
+../src/vendor/glm/ext/matrix_double4x4_precision.hpp:
+
+../src/vendor/glm/detail/type_mat4x4.inl:
+
+../src/vendor/glm/detail/type_mat4x4.hpp:
+
+../src/vendor/glm/ext/matrix_double4x4.hpp:
+
+../src/vendor/glm/ext/matrix_float4x3_precision.hpp:
+
+../src/vendor/glm/ext/matrix_float4x3.hpp:
+
+../src/vendor/glm/ext/matrix_double4x3_precision.hpp:
+
+../src/vendor/glm/detail/type_mat4x3.inl:
+
+../src/vendor/glm/ext/matrix_double4x3.hpp:
+
+../src/vendor/glm/mat4x3.hpp:
+
+../src/vendor/glm/detail/func_vector_relational.inl:
+
+../src/vendor/glm/ext/matrix_float4x2_precision.hpp:
+
+../src/vendor/glm/ext/scalar_constants.hpp:
+
+../src/vendor/glm/ext/matrix_float4x2.hpp:
+
+../src/vendor/glm/detail/type_mat4x2.inl:
+
+../src/vendor/glm/ext/matrix_double4x2.hpp:
+
+../src/Renderer.cpp:
+
+../src/vendor/glm/ext/matrix_float3x4_precision.hpp:
+
+../src/vendor/glm/ext/matrix_double3x4_precision.hpp:
+
+../src/vendor/glm/detail/type_mat3x4.inl:
+
+../src/vendor/glm/detail/type_mat3x4.hpp:
+
+../src/vendor/glm/ext/matrix_double3x4.hpp:
+
+../src/vendor/glm/ext/matrix_clip_space.inl:
+
+../src/vendor/glm/detail/type_mat3x3.hpp:
+
+../src/vendor/glm/ext/matrix_double3x3.hpp:
+
+../src/vendor/glm/mat3x3.hpp:
+
+../src/vendor/glm/ext/matrix_double3x2_precision.hpp:
+
+../src/vendor/glm/detail/type_mat3x2.inl:
+
+../src/vendor/glm/detail/type_mat3x2.hpp:
+
+../src/vendor/glm/ext/matrix_double3x2.hpp:
+
+../src/vendor/glm/ext/matrix_float2x4_precision.hpp:
+
+../src/vendor/glm/ext/matrix_float2x4.hpp:
+
+../src/vendor/glm/ext/matrix_float3x3_precision.hpp:
+
+../src/vendor/glm/ext/matrix_double2x4_precision.hpp:
+
+../src/vendor/glm/detail/type_mat2x4.inl:
+
+../src/vendor/glm/geometric.hpp:
+
+../src/vendor/glm/ext/matrix_double2x4.hpp:
+
+../src/vendor/glm/mat2x4.hpp:
+
+../src/vendor/glm/ext/matrix_float2x3.hpp:
+
+../src/vendor/glm/ext/matrix_double2x3_precision.hpp:
+
+../src/vendor/glm/detail/type_mat2x3.inl:
+
+../src/vendor/glm/detail/type_mat2x3.hpp:
+
+../src/vendor/glm/ext/matrix_double2x3.hpp:
+
+../src/vendor/glm/mat2x3.hpp:
+
+../src/vendor/glm/detail/type_mat2x2.hpp:
+
+../src/vendor/glm/mat2x2.hpp:
+
+../src/vendor/glm/ext/vector_double4.hpp:
+
+../src/vendor/glm/ext/vector_float4_precision.hpp:
+
+../src/vendor/glm/ext/vector_float4.hpp:
+
+../src/vendor/glm/ext/vector_bool4.hpp:
+
+../src/vendor/glm/ext/vector_uint3_sized.hpp:
+
+../src/vendor/glm/ext/vector_uint3.hpp:
+
+../src/vendor/glm/ext/vector_int3_sized.hpp:
+
+../src/vendor/glm/ext/vector_int3.hpp:
+
+../src/vendor/glm/ext/vector_double3_precision.hpp:
+
+../src/vendor/glm/detail/func_packing.inl:
+
+../src/vendor/glm/ext/matrix_double4x2_precision.hpp:
+
+../src/vendor/glm/ext/vector_bool3_precision.hpp:
+
+../src/vendor/glm/detail/compute_common.hpp:
+
+../src/vendor/glm/detail/type_vec3.inl:
+
+../src/vendor/glm/detail/type_vec3.hpp:
+
+../src/vendor/glm/vec3.hpp:
+
+../src/vendor/glm/ext/scalar_uint_sized.hpp:
+
+../src/vendor/glm/ext/scalar_int_sized.hpp:
+
+../src/vendor/glm/ext/vector_int2.hpp:
+
+../src/vendor/glm/ext/vector_double2.hpp:
+
+../src/vendor/glm/ext/vector_float2_precision.hpp:
+
+../src/vendor/glm/ext/vector_bool2_precision.hpp:
+
+/usr/include/c++/11/bits/vector.tcc:
+
+../src/vendor/glm/detail/compute_vector_relational.hpp:
+
+../src/vendor/glm/detail/type_vec2.inl:
+
+../src/vendor/glm/detail/type_mat3x3.inl:
 
 /usr/include/c++/11/ext/alloc_traits.h:
 
@@ -1391,9 +2842,9 @@ CMakeFiles/hackathon-open-gl.dir/src/VertexBuffer.cpp.o: ../src/VertexBuffer.cpp
 
 /usr/include/c++/11/fstream:
 
-/usr/include/c++/11/pstl/pstl_config.h:
-
 ../src/Renderer.h:
+
+../src/vendor/glm/ext/vector_float3.hpp:
 
 /usr/include/c++/11/bits/locale_classes.h:
 
@@ -1401,17 +2852,27 @@ CMakeFiles/hackathon-open-gl.dir/src/VertexBuffer.cpp.o: ../src/VertexBuffer.cpp
 
 /usr/include/sys/single_threaded.h:
 
+../src/Texture.cpp:
+
+../src/vendor/glm/ext/vector_float2.hpp:
+
+/usr/include/c++/11/bits/unordered_map.h:
+
 /usr/include/bits/types/__sigset_t.h:
-
-/usr/include/c++/11/stdlib.h:
-
-/usr/include/bits/setjmp.h:
 
 /usr/include/c++/11/bits/allocator.h:
 
 /usr/include/c++/11/cmath:
 
 /usr/include/bits/thread-shared-types.h:
+
+../src/vendor/glm/integer.hpp:
+
+/usr/include/c++/11/cfloat:
+
+../src/vendor/glm/ext/vector_int4.hpp:
+
+../src/vendor/glm/ext/vector_uint2.hpp:
 
 /usr/include/bits/types/struct_itimerspec.h:
 
@@ -1427,27 +2888,45 @@ CMakeFiles/hackathon-open-gl.dir/src/VertexBuffer.cpp.o: ../src/VertexBuffer.cpp
 
 /usr/include/bits/types/__fpos_t.h:
 
+../src/vendor/glm/ext/matrix_transform.inl:
+
+../src/vendor/glm/detail/type_vec1.hpp:
+
 /usr/include/bits/mathcalls.h:
 
 /usr/include/bits/types/struct_timeval.h:
+
+../src/vendor/glm/ext/vector_bool3.hpp:
 
 /usr/include/bits/time.h:
 
 /usr/include/bits/types/__mbstate_t.h:
 
+../src/vendor/glm/detail/type_vec2.hpp:
+
 /usr/include/c++/11/bits/exception_defines.h:
 
+../src/vendor/glm/detail/type_mat4x2.hpp:
+
 /usr/include/bits/stdio_lim.h:
+
+../src/vendor/glm/exponential.hpp:
 
 /usr/include/time.h:
 
 /usr/include/bits/types/struct_sched_param.h:
+
+/usr/include/string.h:
+
+/usr/include/c++/11/bits/streambuf.tcc:
 
 /usr/include/c++/11/tr1/bessel_function.tcc:
 
 /usr/include/bits/types/time_t.h:
 
 /usr/include/pthread.h:
+
+../src/vendor/glm/vec4.hpp:
 
 /usr/include/c++/11/x86_64-redhat-linux/bits/gthr-default.h:
 
@@ -1461,6 +2940,8 @@ CMakeFiles/hackathon-open-gl.dir/src/VertexBuffer.cpp.o: ../src/VertexBuffer.cpp
 
 /usr/include/c++/11/cctype:
 
+../src/vendor/glm/ext/matrix_double3x3_precision.hpp:
+
 /usr/include/c++/11/unordered_map:
 
 /usr/include/bits/locale.h:
@@ -1468,6 +2949,10 @@ CMakeFiles/hackathon-open-gl.dir/src/VertexBuffer.cpp.o: ../src/VertexBuffer.cpp
 /usr/include/c++/11/bits/localefwd.h:
 
 /usr/include/c++/11/tr1/hypergeometric.tcc:
+
+../src/vendor/glm/ext/vector_int4_sized.hpp:
+
+../src/vendor/glm/ext/vector_double4_precision.hpp:
 
 /usr/include/c++/11/debug/assertions.h:
 
@@ -1481,10 +2966,6 @@ CMakeFiles/hackathon-open-gl.dir/src/VertexBuffer.cpp.o: ../src/VertexBuffer.cpp
 
 /usr/include/bits/waitflags.h:
 
-/usr/include/c++/11/bits/unordered_map.h:
-
-../src/Texture.cpp:
-
 /usr/include/c++/11/bits/cpp_type_traits.h:
 
 /usr/include/c++/11/bits/stl_iterator_base_funcs.h:
@@ -1494,6 +2975,8 @@ CMakeFiles/hackathon-open-gl.dir/src/VertexBuffer.cpp.o: ../src/VertexBuffer.cpp
 /usr/include/c++/11/ext/atomicity.h:
 
 /usr/include/c++/11/bits/stl_pair.h:
+
+../src/vendor/glm/ext/matrix_projection.hpp:
 
 /usr/include/c++/11/bits/stl_algobase.h:
 
@@ -1514,6 +2997,8 @@ CMakeFiles/hackathon-open-gl.dir/src/VertexBuffer.cpp.o: ../src/VertexBuffer.cpp
 /usr/include/c++/11/bits/string_view.tcc:
 
 /usr/include/c++/11/tr1/exp_integral.tcc:
+
+../src/vendor/glm/ext/vector_double3.hpp:
 
 /usr/include/c++/11/string:
 
@@ -1541,6 +3026,8 @@ CMakeFiles/hackathon-open-gl.dir/src/VertexBuffer.cpp.o: ../src/VertexBuffer.cpp
 
 /usr/include/c++/11/bits/ostream.tcc:
 
+../src/vendor/glm/mat3x4.hpp:
+
 /usr/include/c++/11/x86_64-redhat-linux/bits/gthr.h:
 
 /usr/include/c++/11/bits/stl_iterator.h:
@@ -1556,6 +3043,8 @@ CMakeFiles/hackathon-open-gl.dir/src/VertexBuffer.cpp.o: ../src/VertexBuffer.cpp
 /usr/include/bits/types/cookie_io_functions_t.h:
 
 /usr/include/bits/libc-header-start.h:
+
+../src/vendor/glm/ext/vector_float3_precision.hpp:
 
 /usr/include/c++/11/ext/type_traits.h:
 
@@ -1579,7 +3068,7 @@ CMakeFiles/hackathon-open-gl.dir/src/VertexBuffer.cpp.o: ../src/VertexBuffer.cpp
 
 /usr/include/c++/11/sstream:
 
-/usr/include/c++/11/bits/stl_iterator_base_types.h:
+../src/vendor/glm/ext/matrix_float2x3_precision.hpp:
 
 /usr/include/bits/types/struct___jmp_buf_tag.h:
 
@@ -1588,6 +3077,10 @@ CMakeFiles/hackathon-open-gl.dir/src/VertexBuffer.cpp.o: ../src/VertexBuffer.cpp
 /usr/include/bits/waitstatus.h:
 
 /usr/include/c++/11/cstdlib:
+
+/usr/include/c++/11/tr1/poly_laguerre.tcc:
+
+/usr/include/assert.h:
 
 /usr/include/c++/11/ext/numeric_traits.h:
 
@@ -1607,9 +3100,15 @@ CMakeFiles/hackathon-open-gl.dir/src/VertexBuffer.cpp.o: ../src/VertexBuffer.cpp
 
 /usr/include/c++/11/bits/postypes.h:
 
+../src/vendor/glm/ext/vector_uint4_sized.hpp:
+
 /usr/include/c++/11/tr1/special_function_util.h:
 
+../src/vendor/glm/ext/scalar_constants.inl:
+
 /usr/include/gnu/stubs-64.h:
+
+../src/vendor/glm/ext/vector_int2_sized.hpp:
 
 /usr/include/c++/11/x86_64-redhat-linux/bits/ctype_base.h:
 
@@ -1639,6 +3138,8 @@ CMakeFiles/hackathon-open-gl.dir/src/VertexBuffer.cpp.o: ../src/VertexBuffer.cpp
 
 /usr/include/bits/flt-eval-method.h:
 
+../src/vendor/glm/ext/matrix_float3x2.hpp:
+
 /usr/include/GL/gl.h:
 
 /usr/include/c++/11/x86_64-redhat-linux/bits/c++config.h:
@@ -1661,9 +3162,15 @@ CMakeFiles/hackathon-open-gl.dir/src/VertexBuffer.cpp.o: ../src/VertexBuffer.cpp
 
 /usr/include/wchar.h:
 
+../src/vendor/glm/ext/matrix_float3x3.hpp:
+
 /usr/include/c++/11/bits/cxxabi_init_exception.h:
 
 /usr/include/bits/floatn-common.h:
+
+../src/vendor/glm/matrix.hpp:
+
+../src/vendor/glm/detail/type_vec4.inl:
 
 /usr/include/c++/11/cerrno:
 
@@ -1676,6 +3183,12 @@ CMakeFiles/hackathon-open-gl.dir/src/VertexBuffer.cpp.o: ../src/VertexBuffer.cpp
 /usr/include/bits/types/__locale_t.h:
 
 /usr/include/c++/11/bits/range_access.h:
+
+/usr/include/c++/11/bits/stl_vector.h:
+
+/usr/include/bits/types/struct_timespec.h:
+
+/usr/include/c++/11/cstddef:
 
 /usr/include/bits/pthread_stack_min-dynamic.h:
 
@@ -1691,7 +3204,11 @@ CMakeFiles/hackathon-open-gl.dir/src/VertexBuffer.cpp.o: ../src/VertexBuffer.cpp
 
 /usr/include/c++/11/string_view:
 
+../src/vendor/glm/ext/vector_uint2_sized.hpp:
+
 /usr/include/c++/11/bits/functional_hash.h:
+
+../src/vendor/glm/mat3x2.hpp:
 
 /usr/include/stdlib.h:
 
@@ -1707,13 +3224,13 @@ CMakeFiles/hackathon-open-gl.dir/src/VertexBuffer.cpp.o: ../src/VertexBuffer.cpp
 
 /usr/include/bits/uintn-identity.h:
 
-/usr/include/c++/11/bits/vector.tcc:
-
 /usr/include/sys/select.h:
 
 /usr/include/bits/select.h:
 
 /usr/lib/gcc/x86_64-redhat-linux/11/include/emmintrin.h:
+
+../src/vendor/glm/detail/type_mat2x2.inl:
 
 /usr/include/bits/types/sigset_t.h:
 
@@ -1727,6 +3244,8 @@ CMakeFiles/hackathon-open-gl.dir/src/VertexBuffer.cpp.o: ../src/VertexBuffer.cpp
 
 /usr/include/bits/types/__fpos64_t.h:
 
+../src/vendor/glm/ext/vector_double2_precision.hpp:
+
 /usr/include/errno.h:
 
 /usr/include/c++/11/ios:
@@ -1735,11 +3254,19 @@ CMakeFiles/hackathon-open-gl.dir/src/VertexBuffer.cpp.o: ../src/VertexBuffer.cpp
 
 /usr/include/linux/errno.h:
 
+../src/vendor/glm/detail/type_half.inl:
+
+../src/vendor/glm/detail/_fixes.hpp:
+
 /usr/include/bits/stdint-uintn.h:
 
 /usr/lib/gcc/x86_64-redhat-linux/11/include/stdarg.h:
 
 /usr/include/asm/errno.h:
+
+../src/vendor/glm/mat4x2.hpp:
+
+../src/vendor/glm/ext/matrix_float3x2_precision.hpp:
 
 /usr/include/c++/11/bits/fstream.tcc:
 
@@ -1753,21 +3280,29 @@ CMakeFiles/hackathon-open-gl.dir/src/VertexBuffer.cpp.o: ../src/VertexBuffer.cpp
 
 /usr/include/bits/types/error_t.h:
 
+../src/vendor/glm/ext/matrix_float3x4.hpp:
+
+../src/vendor/glm/detail/type_mat2x4.hpp:
+
 ../src/IndexBuffer.h:
 
 /usr/include/c++/11/bits/charconv.h:
 
 /usr/include/c++/11/bits/basic_string.tcc:
 
+/usr/include/c++/11/pstl/pstl_config.h:
+
+../src/vendor/glm/fwd.hpp:
+
 /usr/include/c++/11/bits/locale_classes.tcc:
+
+../src/vendor/glm/ext/vector_uint4.hpp:
 
 /usr/include/c++/11/system_error:
 
-/usr/include/bits/types/struct_timespec.h:
-
-/usr/include/c++/11/bits/stl_vector.h:
-
 /usr/include/c++/11/stdexcept:
+
+../src/vendor/glm/mat4x4.hpp:
 
 /usr/include/c++/11/bits/basic_ios.h:
 
@@ -1781,9 +3316,11 @@ CMakeFiles/hackathon-open-gl.dir/src/VertexBuffer.cpp.o: ../src/VertexBuffer.cpp
 
 /usr/include/c++/11/bits/locale_facets.tcc:
 
-/usr/include/c++/11/istream:
+../src/vendor/glm/ext/matrix_double2x2.hpp:
 
-../src/VertexBufferLayout.h:
+../src/vendor/glm/simd/platform.h:
+
+/usr/include/c++/11/istream:
 
 /usr/include/c++/11/bits/istream.tcc:
 
@@ -1797,9 +3334,9 @@ CMakeFiles/hackathon-open-gl.dir/src/VertexBuffer.cpp.o: ../src/VertexBuffer.cpp
 
 /usr/include/c++/11/new:
 
-/usr/include/c++/11/bits/sstream.tcc:
+/usr/include/c++/11/climits:
 
-/usr/include/strings.h:
+/usr/include/c++/11/bits/sstream.tcc:
 
 ../src/VertexBuffer.h:
 
@@ -1829,6 +3366,8 @@ CMakeFiles/hackathon-open-gl.dir/src/VertexBuffer.cpp.o: ../src/VertexBuffer.cpp
 
 /usr/include/c++/11/bits/node_handle.h:
 
+../src/vendor/glm/detail/type_mat4x3.hpp:
+
 /usr/include/stdint.h:
 
 /usr/include/c++/11/bits/ptr_traits.h:
@@ -1837,51 +3376,25 @@ CMakeFiles/hackathon-open-gl.dir/src/VertexBuffer.cpp.o: ../src/VertexBuffer.cpp
 
 /usr/include/c++/11/bits/erase_if.h:
 
-/usr/include/c++/11/vector:
+../src/vendor/glm/ext/matrix_float2x2_precision.hpp:
 
-/usr/include/c++/11/bits/stl_uninitialized.h:
+/usr/include/bits/setjmp.h:
 
-/usr/include/c++/11/bits/stl_bvector.h:
+../src/vendor/glm/glm.hpp:
 
-../src/Texture.h:
-
-../src/IndexBuffer.cpp:
-
-../src/Renderer.cpp:
-
-../src/Shader.cpp:
-
-../src/vendor/stb_image/stb_image.h:
-
-/usr/include/c++/11/bits/streambuf.tcc:
-
-/usr/include/string.h:
-
-/usr/include/bits/mathcalls-helper-functions.h:
+/usr/include/math.h:
 
 /usr/include/bits/timesize.h:
 
 /usr/lib/gcc/x86_64-redhat-linux/11/include/limits.h:
-
-/usr/include/c++/11/bits/concept_check.h:
-
-/usr/lib/gcc/x86_64-redhat-linux/11/include/syslimits.h:
-
-/usr/include/bits/local_lim.h:
-
-/usr/include/bits/math-vector.h:
-
-/usr/include/bits/uio_lim.h:
-
-/usr/include/c++/11/math.h:
-
-/usr/include/math.h:
 
 /usr/include/wctype.h:
 
 /usr/include/sched.h:
 
 /usr/include/bits/fp-fast.h:
+
+/usr/include/bits/mathcalls-helper-functions.h:
 
 /usr/include/bits/mathcalls-narrow.h:
 
@@ -1890,6 +3403,8 @@ CMakeFiles/hackathon-open-gl.dir/src/VertexBuffer.cpp.o: ../src/VertexBuffer.cpp
 /usr/include/c++/11/bits/specfun.h:
 
 /usr/include/c++/11/limits:
+
+../src/vendor/glm/detail/type_vec4.hpp:
 
 /usr/include/c++/11/array:
 
@@ -1901,6 +3416,36 @@ CMakeFiles/hackathon-open-gl.dir/src/VertexBuffer.cpp.o: ../src/VertexBuffer.cpp
 
 /usr/include/c++/11/tr1/legendre_function.tcc:
 
+../src/vendor/glm/detail/func_matrix.inl:
+
 /usr/include/bits/posix2_lim.h:
 
 /usr/include/c++/11/tr1/modified_bessel_func.tcc:
+
+/usr/include/c++/11/tr1/riemann_zeta.tcc:
+
+../src/vendor/glm/vec2.hpp:
+
+../src/vendor/glm/detail/setup.hpp:
+
+/usr/include/c++/11/cassert:
+
+/usr/include/c++/11/bits/concept_check.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/11/include/syslimits.h:
+
+/usr/include/bits/local_lim.h:
+
+/usr/include/bits/math-vector.h:
+
+/usr/include/bits/uio_lim.h:
+
+../src/vendor/glm/ext/vector_bool4_precision.hpp:
+
+/usr/lib/gcc/x86_64-redhat-linux/11/include/float.h:
+
+/usr/include/c++/11/bits/stl_iterator_base_types.h:
+
+../src/vendor/glm/detail/qualifier.hpp:
+
+../src/vendor/glm/ext/vector_bool2.hpp:
