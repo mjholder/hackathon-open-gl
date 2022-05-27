@@ -46,11 +46,12 @@ int main(void)
 
     // 6 vertex positions (x, y) in screenspace and (x, y) for texture
     // Note repeate of some vertices, these are extra and wasteful
+    // Due to projection these are now in pixel coords
     float positions[] = {
-        -0.5f, -0.5f, 0.0f, 0.0f, // 0
-         0.5f, -0.5f, 1.0f, 0.0f, // 1
-         0.5f,  0.5f, 1.0f, 1.0f, // 2
-        -0.5f,  0.5f, 0.0f, 1.0f, // 3
+        100.0f, 100.0f, 0.0f, 0.0f, // 0
+        200.0f, 100.0f, 1.0f, 0.0f, // 1
+        200.0f, 200.0f, 1.0f, 1.0f, // 2
+        100.0f, 200.0f, 0.0f, 1.0f, // 3
     };
 
     unsigned int indices[] = {
@@ -80,7 +81,19 @@ int main(void)
 
     /* Create projection matrix */
     // this is an orthographic matrix that matches our 4:3 aspect ratio
-    glm::mat4 proj = glm::ortho(-2.0f, 2.0f, -1.5f, 1.5f, -1.0f, 1.0f);
+    // Project our space as a per pixel space rather than normalized
+    glm::mat4 proj = glm::ortho(0.0f, 640.0f, 0.0f, 480.0f, -1.0f, 1.0f);
+
+    /* Create view matrix */
+    // Move "camera" to the right by moving everything to the left
+    glm::mat4 view = glm::translate(glm::mat4(1.0f), glm::vec3(-100, 0, 0));
+
+    /* Create model matrix */
+    // the hat will move up 200 pixels and to the right 200 pixel
+    glm::mat4 model = glm::translate(glm::mat4(1.0f), glm::vec3(200, 200, 0));
+
+    /* Start construction of our full MVP matrix */
+    glm::mat4 mvp = proj * view * model;
 
     Shader shader("/home/maholder/git_repos/hackathon-open-gl/res/shaders/Basic.shader");
     shader.Bind();
@@ -92,7 +105,7 @@ int main(void)
     shader.SetUniform1i("u_Texture", 0);
 
     // Set the projection matrix in the shader
-    shader.SetUniformMat4f("u_MVP", proj);
+    shader.SetUniformMat4f("u_MVP", mvp);
 
     va.Unbind();
     shader.Unbind();
