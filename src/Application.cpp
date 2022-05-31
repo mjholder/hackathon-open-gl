@@ -49,9 +49,9 @@ int main(void)
     // Due to projection these are now in pixel coords
     float positions[] = {
         100.0f, 100.0f, 0.0f, 0.0f, // 0
-        200.0f, 100.0f, 1.0f, 0.0f, // 1
-        200.0f, 200.0f, 1.0f, 1.0f, // 2
-        100.0f, 200.0f, 0.0f, 1.0f, // 3
+        540.0f, 100.0f, 1.0f, 0.0f, // 1
+        540.0f, 380.0f, 1.0f, 1.0f, // 2
+        100.0f, 380.0f, 0.0f, 1.0f, // 3
     };
 
     unsigned int indices[] = {
@@ -86,14 +86,15 @@ int main(void)
 
     /* Create view matrix */
     // Move "camera" to the right by moving everything to the left
-    glm::mat4 view = glm::translate(glm::mat4(1.0f), glm::vec3(-100, 0, 0));
+    //glm::mat4 view = glm::translate(glm::mat4(1.0f), glm::vec3(-100, 0, 0));
 
     /* Create model matrix */
     // the hat will move up 200 pixels and to the right 200 pixel
-    glm::mat4 model = glm::translate(glm::mat4(1.0f), glm::vec3(200, 200, 0));
+    //glm::mat4 model = glm::translate(glm::mat4(1.0f), glm::vec3(200, 200, 0));
 
     /* Start construction of our full MVP matrix */
-    glm::mat4 mvp = proj * view * model;
+    //glm::mat4 mvp = proj * view * model;
+    glm::mat4 mvp = proj;
 
     Shader shader("/home/maholder/git_repos/hackathon-open-gl/res/shaders/Basic.shader");
     shader.Bind();
